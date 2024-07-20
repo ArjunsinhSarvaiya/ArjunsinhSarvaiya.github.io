@@ -1,0 +1,163 @@
+.main_container{ float: left; width: 100%; font-size: 16px; line-height: 18px; margin: 0;}
+.loginbanner{ position: relative; display: none;}
+.loginbanner_message{position: absolute; left: 0; top: 42px; width: 100%; text-align: center;}
+.loginbanner_message h3{ font-size: 36px; color: #797979; line-height: 56px; font-weight: 600; margin: 0;}
+.f-login-content{ background:url(../images/banners/loginbg.jpg) no-repeat top center; background-size: cover;}
+.login_nox{ margin: 40px auto; background: #fff; padding: 20px; border-radius: 5px; width: 450px; max-width: 100%; border: 1px solid #eae5e5;}
+.login_nox form{ margin: 0 auto; width: 100%; max-width: 100%;}
+.login_nox .form-group{ margin-bottom: 25px; position: relative;}
+.login_nox .form-group.slide label{ font-weight: 400; position: absolute; left: 10px; top: 4px; font-size: 16px; color: #a5a4a4; line-height: 30px; margin: 0; transition: .15s ease-out;}
+.login_nox .form-group.slide label.active{ font-size: 14px; color: #333; line-height: 20px; padding: 0 5px; top: -10px; background: #fff; z-index: 10;}
+.login_nox .form-control:focus{ box-shadow: none; border-color: #888;}
+.login_nox .form-control.active{ border-color: #888;}
+.login_nox .hmc-alert{ display: block; position: relative; text-align: left; font-size: 16px; line-height: 20px; padding: 10px;}
+.login_nox .hmc-alert img{ width: 20px;}
+.login_nox .hmc-alert .text{ display: inline-block; width: calc(100% - 30px); margin-left: 5px; vertical-align: top;}
+.login_nox .hmc-alert .close-icon{ position: absolute; top: -8px; right: -8px; width: 20px; height: 20px; font-size: 15px; line-height: 20px; text-align: center; border-radius: 50%; color: #fff;}
+.login_nox .hmc-alert.alert-danger .close-icon{ background: red;}
+.login_nox .hmc-alert.alert-success .close-icon{ background: green;}
+.login_nox h4{ font-size: 25px; line-height: 30px; font-weight: 400; text-align: center; margin: 0 0 25px;}
+.login_nox.forget h4{ font-size: 20px;}
+.login_nox .form-control{ border: 1px solid #b6b6b6; height: 42px; border-radius: 2px; font-size: 16px; color: #515151; line-height: 36px; padding: 5px 10px; z-index: 9; background: none; position: relative;}
+.login_nox .form-control:-webkit-autofill{ background: #fff !important; box-shadow: 0 0 0 30px #fff inset;}
+.login_nox button[type="submit"]{ background: #ff9000; transition: .5s; color: #fff; font-size: 18px; line-height: 20px; padding: 10px; margin-bottom: 20px; border-radius: 0; font-family: 'Muli';}
+.login_nox button[type="submit"]:focus, .login_nox button[type="submit"]:active{ outline: none; border: 0;}
+.login_nox .remember_pass{ margin: 0 0 10px; font-size: 16px; line-height: 20px;}
+.login_nox button[type="submit"]:hover{ background: #e67700;}
+.login_nox .links{ font-size: 24px; color: #5a5959; line-height: 30px; margin-top: 20px;}
+.login_nox .links a{ color: #5a5959;}
+.login_nox .links a:hover{ text-decoration: underline;}
+.login_nox .forgetpass{ font-size: 14px; line-height: 20px; margin-bottom: 10px;}
+.login_nox .forgetpass span{ font-weight: 400!important;}
+.login_nox .forgetpass a{ color: #ff9000; font-weight: 400!important;}
+.login_nox form div[ng-messages]{ position: absolute; bottom: -18px; left: 0; color: #ff0000; font-size: 13px; line-height: 16px;}
+.login_nox .form-group.upload{ display: inline-block; width: 100%; vertical-align: top; margin-bottom: 10px;}
+.login_nox .form-group.upload label{ float: left; font-weight: 400; color: #4d4d4d; font-size: 18px; line-height: 25px; width: 160px; margin: 0 0 10px;}
+.login_nox .form-group.upload .upload_imgname{ width: 100%; font-size: 16px; line-height: 20px; margin: 10px 0 0; text-overflow: ellipsis; overflow: hidden;}
+.login_nox .form-group.upload .upload_imgname: empty{ display: none;}
+.login_nox .form-group.upload .fileupload{ float: right; background: #008CBA; width: calc(100%); position: relative; border-radius: 0;}
+.login_nox .form-group.upload .fileupload input[type="file"]{ width: 100%; position: absolute; left: 0; top: 0; right: 0; bottom: 0; opacity: 0;}
+.login_nox .form-group.upload .fileupload span{ height: 40px; border-radius: 0; font-size: 17px; color: #fff; line-height: 27px; font-weight: 600; padding: 5px 5px; text-align: center; display: block;}
+.login_nox .social-links a{ padding: 5px 2px; border-radius: 0; line-height: 30px; font-size: 15px; display: block; color: #fff; text-align: center;}
+.login_nox .social-links a i{ margin-right: 5px;}
+.login_nox .social-links a.facebook{ background: #3A5897;}
+.login_nox .social-links a.google{ background: #D95032;}
+.login_nox .social-links a:hover{ text-decoration: none;}
+.userprofile_page .flexcolumn{ display: flex;}
+.upage-title{ background: #ff9000; color: #fff; margin: 0; text-align: center; font-size: 40px; line-height: 55px; padding: 15px 0; font-weight: 600;}
+.user-sidebar{ border-left: 1px solid #dcdbdb; border-right: 1px solid #dcdbdb; padding: 0 0 100px;}
+.user-sidebar ul{ border-top: 1px solid #dcdbdb;}
+.user-sidebar ul li{ font-size: 18px; color: #a1a1a1; line-height: 35px; border-bottom: 1px solid #dcdbdb;}
+.user-sidebar ul li a{ padding: 7px 20px; color: #a1a1a1; display: block; transition: .3s;}
+.user-sidebar ul li a:hover, .user-sidebar ul li.active a{ color: #000; text-decoration: none; background: #f1f1f1;}
+.user-sidebar .user-info{ text-align: center; padding: 30px 0;}
+.user-sidebar .user-info img{ max-width: 100%; width: 150px; height: 150px; border-radius: 50%; border: 1px solid #ccc}
+.user-sidebar .user-info p{ font-size: 25px; color: #3f3f3f; line-height: 30px; margin: 15px 0 0;}
+.userprofile_page .genral_info{ width: 90%; margin: 30px auto 0;}
+.userprofile_page .uright-title{ font-size: 30px; color: #333; text-align: center; line-height: 37px; margin: 0 0 30px;}
+.userprofile_page .genral_info .btns-sec{ margin: 20px 0;}
+.userprofile_page .genral_info .btns-sec .btn{ font-family: 'Muli'; font-size: 14px; line-height: 20px; padding: 5px 15px; border-radius: 0;}
+.userprofile_page .genral_info ul li{ font-size: 17px; line-height: 30px; color: #999; padding: 5px 10px; border-bottom: 1px solid #e3e2e2;}
+.userprofile_page .genral_info ul li:nth-child(odd){ background: #f0f0f0;}
+.userprofile_page .genral_info ul li span:first-child{ color: #333; display: inline-block; min-width: 200px;}
+.userprofile_page .genral_info ul li .form-control{ width: 40%; height: 30px; border-radius: 0; background: #fff; display: inline-block; font-family: 'Muli'; font-size: 15px; color: #333; border: 1px solid #999;}
+.userprofile_page .genral_info ul li .halfbox{ display: inline-block; vertical-align: top; width: 49%; padding-right: 10px;}
+.userprofile_page .genral_info ul.edit li{ border-bottom: 0; padding:5px 10px 6px;}
+.userprofile_page .genral_info ul.edit li:nth-child(odd){ background: none;}
+.user-rightsec{ border-right: 1px solid #dcdbdb;}
+.user-rightsec .tabtitle{ font-size: 36px; line-height: 46px; color: #333; text-align: center; margin: 40px 0;}
+.user-rightsec .panel-group{ margin: 0 -15px; width: calc(100% + 30px);}
+.user-rightsec .trip_header{ margin: 0 -15px; width: calc(100% + 30px);}
+.user-rightsec .trip_header li{ font-size: 16px; float: left; color: #333; line-height: 25px; padding: 10px 5px; width: 18%;}
+.user-rightsec .trip_header li.blank{ width: 40px;}
+.user-rightsec #mytriplist.panel{ width: 100%; border-radius: 0; margin: 0; border: 0; border-top: 1px solid #ddd;}
+.user-rightsec #mytriplist.panel:nth-child(odd){ background: #f0f0f0;}
+.user-rightsec #mytriplist .panel:last-child{ border-bottom: 1px solid #ddd;}
+.user-rightsec #mytriplist .panel-heading{ display: inline-block; width: 100%; background: none; margin: 0; border-radius: 0; color: #949494; font-size: 15px; line-height: 20px; padding: 10px 0;}
+.user-rightsec #mytriplist .panel-heading:focus{ outline: none;}
+.user-rightsec #mytriplist .panel-heading span{ width: 18%; float: left; word-wrap: break-word; padding: 0 5px;}
+.user-rightsec #mytriplist .panel-heading .date, .user-rightsec .trip_header .date, .user-rightsec #mytriplist .panel-heading .id, .user-rightsec .trip_header .id, .user-rightsec #mytriplist .panel-heading .fleet, .user-rightsec .trip_header .fleet{ width: 12%; min-height: 1px;}
+.user-rightsec #mytriplist .panel-heading .trip, .user-rightsec .trip_header .trip{ width: 12%; min-height: 1px;}
+.user-rightsec #mytriplist .panel-heading .fare, .user-rightsec .trip_header .fare, .user-rightsec #mytriplist .panel-heading .status, .user-rightsec .trip_header .status{ width: 10%; min-height: 1px;}
+.user-rightsec #mytriplist .panel-heading .origin, .user-rightsec .trip_header .origin, .user-rightsec #mytriplist .panel-heading .destination, .user-rightsec .trip_header .destination{ width: 13%; min-height: 1px;}
+.user-rightsec #mytriplist .panel-heading a{ cursor: pointer; color: #333; float: left; font-size: 20px; line-height: 25px; width: 40px; text-align: center;}
+.user-rightsec #mytriplist .panel-heading.active a{ transform: rotate(90deg);}
+.user-rightsec #mytriplist .panel-collapse{ display: none;}
+.user-rightsec #mytriplist .panel-collapse.active{ display: block;}
+.user-rightsec #mytriplist .panel-body{ background: #f6f6f6; display: flex; margin: 10px 0 -10px; display: inline-block; width: 100%;
+    vertical-align: top;}
+.user-rightsec #mytriplist .panel-body p{ font-size: 17px; line-height: 22px; margin: 0 0 20px;}
+.user-rightsec #mytriplist ul.city li{ padding: 0 0 40px 35px; position: relative;}
+.user-rightsec #mytriplist ul.city li:last-child{ padding-bottom: 0;}
+.user-rightsec #mytriplist ul.city li:after{ position: absolute; left: 11px; top: 22px; height: calc(100% - 22px); border-left: 1px dashed #c0c0c0; content: '';}
+.user-rightsec #mytriplist ul.city li:last-child:after{ display: none;}
+.user-rightsec #mytriplist ul.city li img{ position: absolute; left: 0; top: 0;}
+.user-rightsec #mytriplist ul.city li span{ font-size: 15px; line-height: 20px; display: block; float: none; width: 100%; color: #333; font-weight: 600;}
+.user-rightsec #mytriplist ul.city li p{ font-size: 15px; line-height: 20px; display: block; color: #898989; margin: 0;}
+.user-rightsec #mytriplist .reviews{ border-left: 1px solid #ccc;}
+.user-rightsec #mytriplist .reviews span{ display: block; font-size: 16px; line-height: 20px; color: #333;}
+.user-rightsec #mytriplist .reviews input[type="submit"]{ background: #ff9000; border: 0; color: #fff; font-size: 15px; line-height: 20px; padding: 5px 20px; border-radius: 3px; margin: 5px 0; display: inline-block;}
+.user-rightsec #mytriplist .reviews img{ display: block; margin: 10px auto;}
+.user-rightsec #mytriplist .reviews a{ font-size: 13px; line-height: 18px; color: #333; display: block;}
+.login-fullpage, .reference_wrapper_main{ margin: 0 0 0; float: left; width: 100%;}
+.referfrnd_content{ padding: 30px 0; font-size: 16px; line-height: 24px;}
+.referfrnd_content .divider_or{ margin: 10px 0; font-weight: 600;}
+.referfrnd_content .divider_or, .referfrnd_content .share_personal{ display: block; text-align: center;}
+.referfrnd_content .share_personal label{ margin-bottom: 10px; display: block; font-size: 18px; line-height: 22px;}
+.referfrnd_content .send_link{ text-align: center;}
+.referfrnd_content input[type="text"]{ border: 2px solid #b6b6b6; border-radius: 2px; font-size: 18px; color: #515151; display: inline-block; width: 400px; line-height: 30px; padding: 5px 10px; z-index: 9; background: none;}
+.referfrnd_content .refer-btn{ background: #ff9000; display: inline-block; transition: .5s; color: #fff; font-size: 18px; line-height: 30px; padding: 6px 20px; border-radius: 2px; margin: 0 10px;}
+.referfrnd_content .content_ref_main{ margin: 0 0 30px;}
+/*================ Responsive css start here ======================*/
+@media screen and (min-width: 1400px){
+  .f-login-content{ min-height: 601px; display: flex; align-items: center; }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){ .userprofile_page .genral_info ul li span:first-child{ min-width: 180px;}
+}
+@media screen and (max-width: 767px){ .loginbanner_message h3{ font-size: 14px; line-height: 16px;}
+ .loginbanner_message{ top: 5px;}
+ .login_nox h4{ font-size: 20px; line-height: 30px; margin: 0 0 20px;}
+ .login_nox.forget h4{ font-size: 16px; line-height: 20px;}
+ .login_nox{ margin: 20px auto; padding: 15px;}
+ .login_nox .form-control{ height: 40px; font-size: 16px; border: 1px solid #b6b6b6; line-height: 30px;}
+ .login_nox .form-group.slide label{ font-size: 15px; line-height: 28px;}
+ .login_nox .form-group{}
+ .login_nox button[type="submit"]{ padding: 5px 10px; margin: 0 0 10px;}
+ .login_nox .links{ font-size: 16px; line-height: 20px;}
+ .login-fullpage, .reference_wrapper_main{ margin: 1px 0 0;}
+ .login_nox .social-links{ text-align: center;}
+ .login_nox .social-links a{ margin: 10px 0;}
+ .login_nox .social-links img{ display: inline-block;}
+ .referfrnd_content input[type="text"]{ width: calc(100% - 110px); font-size: 16px;}
+ .referfrnd_content .divider_or{ margin: 10px 0;}
+ .referfrnd_content .share_personal label{ display: block; font-size: 16px; line-height: 20px; text-align: left; margin: 0 0 10px;}
+ .referfrnd_content{ font-size: 14px; line-height: 21px;}
+ .userprofile_page .flexcolumn{ display: block;}
+ .upage-title{ font-size: 25px; line-height: 30px; padding: 10px 0;}
+ .user-sidebar{ border: none; padding: 0;}
+ .user-sidebar .user-info img{ width: 70px; height: 70px;}
+ .user-rightsec{ padding: 0;}
+ .user-rightsec .responsivetrip{ width: 100%; overflow-x: auto;}
+ .user-rightsec .tabtitle{ font-size: 20px; line-height: 30px; margin: 15px 0;}
+ .user-rightsec .trip_header li:first-child, .user-rightsec #mytriplist .panel-heading.active a{ max-width: 30px;}
+ .user-rightsec .trip_header li{ font-size: 13px; line-height: 20px; padding: 10px 5px;}
+ .user-rightsec #mytriplist .panel-heading{ display: inline-block; font-size: 13px; line-height: 16px;}
+ .user-rightsec #mytriplist .panel-body{ padding: 10px!important; display: block; background: none}
+ .user-rightsec #mytriplist .panel-body > div{ text-align: left!Important;}
+ .user-rightsec #mytriplist .reviews{ border-left: 0; margin-top: 20px;}
+ .user-rightsec #mytriplist .panel-body p{ font-size: 15px; line-height: 20px; margin: 0 0 10px;}
+ .user-rightsec .trip_header, .user-rightsec .panel-group{ margin: 0; min-width: 800px;}
+ .user-sidebar .user-info{ padding: 10px;}
+ .user-sidebar .user-info p{ font-size: 20px; line-height: 30px; margin: 10px 0 0 10px; display: inline-block;}
+ .user-sidebar ul li{ font-size: 15px; line-height: 25px;}
+ .user-sidebar ul li a{ padding: 5px 15px;}
+ .userprofile_page .genral_info{ width: 100%; margin: 25px 0 0;}
+ .userprofile_page .uright-title{ font-size: 22px; line-height: 30px; margin: 0 0 10px;}
+ .userprofile_page .genral_info ul li{ font-size: 16px; line-height: 25px; padding: 5px 10px;}
+ .userprofile_page .genral_info ul li span:first-child{ display: block !important;}
+ .userprofile_page .genral_info ul li .form-control{ width: 100%;}
+ .userprofile_page .genral_info ul li:first-child .halfbox{ padding: 8px 0;}
+ .userprofile_page .genral_info ul li .halfbox{ width: 100%; padding: 0;}
+ .userprofile_page .genral_info ul li .halfbox:nth-child(2){ border-top: 1px solid #e3e2e2;}
+ .userprofile_page .genral_info ul.edit li{ padding: 5px 0;}
+}

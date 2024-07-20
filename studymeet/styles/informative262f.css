@@ -1,0 +1,401 @@
+/*======== About page css start here =============*/
+.abt_wrap{ width: 100%; padding-bottom: 20px;}
+.aboutus-page h3, .aboutus-page h1{ font-size: 35px; color: #272727; line-height: 48px; margin: 0 0 30px; text-align: center;}
+.aboutus-page .aboutlisting ul{ margin: 15px 0 0; text-align: center; display: inline-block; width: 100%;}
+.aboutus-page .aboutlisting ul li{ display: inline-block; vertical-align: top; width: 25%; text-align: center; margin: 0 -2px 65px; padding: 0 2%; cursor: pointer;}
+.aboutus-page .aboutlisting ul li img{ display: inline-block; margin: 0 0 30px; transition: .5s;}
+.aboutus-page .aboutlisting ul li:hover img{ transform: scale(1.2);}
+.aboutus-page .aboutlisting ul li span{ display: block; font-size: 19px; line-height: 25px; color: #3b3b3b;}
+.aboutus-page .cms-banner{ margin: 0 0 40px;}
+.aboutlisting.services{ background: #f5f4f4; padding: 35px 0 0; text-align: center;}
+.aboutlisting.services ul li{ float: none; display: inline-block; vertical-align: top; width: 32.5%;}
+.main_container .abt_wrap p{ font-size: 16px; font-weight: 400; line-height: 22px; color: #3b3b3b;}
+.main_container p{ font-size: 11px; font-weight: 300; line-height: 22px}
+.cms-banner img{ width: 100%; max-width: 100%;}
+.wrp_trmsosevice p, .Cancellation_wrap~p, .Cancellation_wrap~ul li p, .privacy-page p{ font-size: 15px; line-height: 20px; font-weight: 400; color: #777;}
+.Cancellation_wrap~p strong{ color: #333;}
+.wrp_trmsosevice strong, .privacy-page strong{ display: inline-block; font-size: 17px; font-weight: 600; line-height: 20px; margin: 5px 0 2px; color: #333;}
+.wrp_trmsosevice p>strong{ font-size: 16px !important; font-weight: 500; line-height: 22px; display: inline-block; margin: 0}
+.hmctmc{ font-size: 14px!important}
+.Cancellation_wrap p, .main-wrapper p{ font-size: 15px; font-weight: 400}
+.Cancellation_wrap, .main-wrapper{ width: 100%}
+.Cancellation_wrap{ padding: 0 0 20px; min-height: 350px;}
+.Cancellation_wrap p{ color: #2d2d2d}
+.wrp_trmsosevice ~ .Cancellation_wrap{ min-height: 10px; padding: 0;}
+.Cancellation_wrap strong{ display: inline-block; width: 100%; font-size: 18px; font-weight: 600}
+.Cancellation_wrap ul{ list-style: none; line-height: 20px; margin: 0; padding: 10px 0 20px;}
+.Cancellation_wrap ul li{ background: url(../images/arrow_rht.png) 1px 15px no-repeat rgba(0, 0, 0, 0); color: #646464; display: inline-block; font-size: 15px; font-weight: 400; line-height: 20px; padding: 10px 0 0 15px; width: 100%}
+.Cancellation_wrap ul li.high_light{ background: rgba(0, 0, 0, 0); font-size: 15px; font-weight: 400; margin: 5px 0 0; padding: 0; color: #2d2d2d}
+.Cancellation_wrap .note{ font-size: 13px; color: #646464; font-weight: 400; display: inline;}
+.wrp_trmsosevice+.Cancellation_wrap ul li{ font-size: 16px; line-height: 20px; padding: 5px 0 5px 15px;}
+/*======== Affiliate page css start here =============*/
+#affiliateSignup{ margin: 10px 0 0;}
+.affilliates_txtrhtwrp{ width: 100%; float: left; display: inline-block; padding-bottom: 25px;}
+.affilliates_txtrhtwrp h2{ color: #333; display: inline-block; float: left; font-size: 15px; font-weight: 400; line-height: 28px; margin: 0; padding: 0; text-align: left; width: 100%}
+.cms-title{ color: #484848; font-size: 30px; font-weight: normal; line-height: 35px; margin: 25px 0 25px; text-align: center;}
+.affilliates_txtrhtwrp p{ display: inline-block; font-size: 15px; font-weight: 400; line-height: 20px; margin: 10px 0}
+.affilliates_txtrhtwrp ul{ width: 100%; display: inline-block; padding: 0; margin: 0; list-style: none}
+.affilliates_txtrhtwrp ul li{ display: inline-block; font-size: 16px; line-height: 22px; font-weight: 600; margin: 5px 0; width: 100%}
+.affilliates_txtrhtwrp ul li.arw{ background: url(../images/vndorarrow_rht.png) 3px 5px no-repeat rgba(0, 0, 0, 0); font-weight: 400; font-size: 15px; line-height: 20px; margin: 0 0 10px; padding: 0 0 0 15px;}
+.affilliates_wrp .form-group{ margin: 0 0 20px; position: relative}
+.affilliates_wrp .form-group .sendEnqPopError{ left: 0; position: absolute; top: 48px; font-size: 11px; color: #ff0000;}
+.affilliates_wrp .form-group.addrs .sendEnqPopError{ bottom: -20px; top: inherit;}
+/*======== Contact page css start here =============*/
+.app_img, .app_img a, .contact_innerwrap, .contact_wrap, .reach_form, .taxi_banner, .taxi_banner a{ display: inline-block; width: 100%}
+.contact_wrap{ margin: 20px 0;}
+.contact_wrap h1{ text-align: center; color: #484848; font-size: 45px; line-height: 60px; margin: 0 0 50px; font-weight: normal;}
+.contact_wrap h1 i{ font-size: 45px; margin: 0 10px;}
+.reach_form{ padding: 0; margin: 0;}
+.reach_form h3{ margin: 0 0 30px; font-size: 18px; font-weight: 300; color: #757575}
+.reach_form .form-group{ float: left; width: 50%; position: relative; margin: 0 0 25px}
+.reach_form .form-group textarea{ width: 100% !important;}
+.reach_form .form-group span{ left: 0; position: absolute; top: auto; font-size: 12px; margin: 2px 0 0; font-weight: normal; background-color: transparent}
+.contact_wrap .reach_form .form-group span{ top: 45px; color: #ff0000;}
+.vendor_sign .form-group{ position: relative; margin: 0 0 30px;}
+.vendor_sign .form-group .sendEnqPopError{ position: absolute; top: 48px; font-weight: normal; left: 0; color: #ff0000; font-size: 11px;}
+.vendor_sign .form-group.add .sendEnqPopError{ top: 95px;}
+.reach_form .form-group>.btncontact{ background: #f48736; color: #fff; height: 60px; display: inline-block; padding: 10px 10px; width: 100%; text-transform: uppercase}
+.reach_form .form-group>input, .reach_form .form-group>textarea{ width: 95%; padding: 10px; font-size: 14px; font-weight: 300; border: 1px solid #ccc; display: inline-block;}
+.reach_form .form-group>textarea{ height: 40px; border-radius: 0!important; line-height: 15px}
+.reach_form .form-group>.btncontact:hover{ background: #df7322; cursor: pointer}
+.reach_loc .add_con{ margin: 0 0 25px;}
+.reach_loc .add_con.helpdesk{ margin-top: 20px; display: inline-block; width: 100%;}
+.reach_loc .add_con h5{ color: #2b2b2b; font-size: 22px; margin: 0 0 15px; font-weight: 400;}
+.reach_loc .add_con h5 i, .reach_mob h5 i{ font-size: 25px; line-height: 25px; color: #f48736; margin: 0 5px 0 0; width: 25px;}
+.reach_loc .add_con h5 span, .reach_mob h5 span{ border-bottom: 2px solid #2b2b2b;}
+.reach_loc .add_con p{ color: #777; font-size: 18px; font-weight: 400; line-height: 25px; padding: 0 0 0 35px;}
+.reach_loc .add_con p a{ color: #777;}
+.reach_mob{ margin: 20px 0 0;}
+.reach_mob h5{ font-size: 25px; color: #2b2b2b; margin: 0 0 15px; font-weight: 400}
+.reach_mob p{ color: #2d2d2d; font-size: 18px; padding: 0 0 0 25px; font-weight: 400; line-height: 25px;}
+/*======== Corporate page css start here =============*/
+.corporatepage .vendorpage_iconholder{ padding: 0;}
+.corporatepage .vendorpage_iconholder .img_box{ padding: 0;}
+.corporatepage .vendorpage_iconholder ul li{ padding: 0 0 20px;}
+.corporatepage .new_vendorwrp p{ font-size: 25px; text-align: left; line-height: 30px; margin: 0 0 30px; font-weight: 400;}
+.corporatepage .col-md-12 .vedor_tophead{ padding: 40px 0 15px}
+.corporatepage .col-md-6 .vedor_tophead h2{ padding: 0 0 10px; font-size: 26px;}
+.corporatepage #frmVendorSignup .form-group{ margin: 0 0 20px; position: relative;}
+.corporatepage #frmVendorSignup input{ background: none;}
+.corporatepage #frmVendorSignup .form-group .placeholdr{ position: absolute; left: 15px; top: 11px; color: #999; font-size: 17px; line-height: 25px; padding: 0; transition: .2s; width: auto; z-index: 1; pointer-events: none;}
+.corporatepage #frmVendorSignup .form-group .placeholdr.active{ top: -12px; left: 5px; padding: 0 8px; background: #fff; color: #f48735; font-size: 15px; z-index: 2;}
+.corporatepage #frmVendorSignup .form-group.submit button{ border-radius: 0;}
+.vendor_bannerimgcontainer{ width: 100%; float: left; display: inline-block; position: relative;}
+.vendor_bannerimgcontainer img{ display: inline-block; max-width: 100%;}
+.vendor_bannerimgcontainer .head_text{ position: absolute; top: 75px; left: 0; width: 100%; float: left; text-align: center;}
+.vendor_middlearea{ width: 100%; float: left;}
+.vendorpage_iconholder{ width: 100%; display: inline-block; padding: 25px 0 0;}
+.vendorpage_iconholder ul{ width: 100%; display: inline-block; padding: 0; margin: 0;}
+.vendorpage_iconholder ul li{ display: inline-block; vertical-align: top; width: 50%; margin: 0 -2px; padding: 0 0 75px;}
+.vendorpage_iconholder ul li:last-of-type{ border: none;}
+.vendorpage_iconholder ul li:nth-child(6n-1){ border: none;}
+.vendorpage_iconholder ul li:nth-child(odd){}
+.vendorpage_iconholder ul li .img_box{ display: inline-block; padding: 0 0 15px; text-align: center; width: 100%;}
+.vendorpage_iconholder ul li .text{ display: inline-block; font-size: 18px; font-weight: 300; line-height: 25px; text-align: center; width: 100%; color: #2d2d2d;}
+.vendorpage_iconholder ul li .text strong{ color: #ff9000; font-weight: 600;}
+.vendor_bootomtextholder{ background-color: #f1f1f1; float: left; padding: 40px 0; margin: 50px 0 0; width: 100%;}
+.vendor_bootomtext{ width: 100%; display: inline-block;}
+.vendor_bootomtext h2, .vendor_bootomtext h1{ color: #2d2d2d; font-size: 30px; font-weight: 400; margin: 0; padding: 0 0 2%; text-align: center; width: 100%;}
+.vendor_bootomtext p{ color: #767676; display: inline-block; font-size: 17px; font-weight: 300; line-height: 26px; margin: 0; padding: 0 0 15px; width: 100%;}
+#frmVendorSignup{ width: 100%; display: inline-block; float: left;}
+#frmVendorSignup .vendortype label{ padding: 10px 0; line-height: 30px; font-size: 18px; width: 120px;}
+#frmVendorSignup .form-group{ border: medium none; margin: 0 0 15px; width: 100%;}
+#frmVendorSignup .form-group.check_bxwrp{}
+#frmVendorSignup .form-group.check_bxwrp label{ padding: 10px 0; width: 250px; float: left; font-size: 18px; line-height: 30px;}
+#frmVendorSignup .form-group.check_bxwrp .form_elemt{ float: right; margin: 0 0 10px; position: relative; width: calc(100% - 260px); font-size: 20px;}
+#frmVendorSignup .form-group.check_bxwrp .form_elemt label{ display: inline-block; padding: 0 0 0 35px; width: 20%;}
+#frmVendorSignup .form-group input{ border: 1px solid #dadada; font-size: 18px; font-weight: 400; font-family: 'Muli'; color: #444; width: 100%; height: 50px;  display: inline-block;}
+.select_box_vendor{ position: relative; width: calc(100% - 125px); float: right;}
+.select_box_vendor .fa, #frmVendorSignup .form-group.check_bxwrp .form_elemt .fa{ position: absolute; top: 15px; font-size: 20px; right: 10px; pointer-events: none;}
+.reach_form #frmVendorSignup .form-group textarea{ height: 150px;}
+#frmVendorSignup .form-group textarea{ resize: none; border: 1px solid #dadada; height: 100px; font-size: 18px; font-family: 'Muli'; line-height: 25px; font-weight: 400; color: #444; width: 100%; display: inline-block;}
+#frmVendorSignup .form-group select{ border: 1px solid #dadada; height: 50px; -webkit-appearance: none; -moz-appearance: none; appearance: none; float: right; font-size: 18px; width: 100%; font-family: 'Muli'; background: url(../images/arrow_pointer.png) right center no-repeat rgba(0, 0, 0, 0);}
+#frmVendorSignup .form-group select option[value="1"]{ font-size: 15px; font-weight: 300; color: #ccc;}
+#frmVendorSignup .form-group.submit{ margin: 0; text-align: center; width: 100%;}
+#frmVendorSignup .form-group.submit button{ background-color: #f48735; box-shadow: none; padding: 10px 10px; font-size: 20px; height: 45px; color: #fff; display: block; width: 100%;}
+#frmVendorSignup .form-group.submit button{ background-color: #f48735; box-shadow: none; padding: 10px 10px; font-size: 20px; height: 45px; color: #fff; display: block; width: 100%;}
+.corporatepage #frmVendorSignup .form-group.submit button{ border-radius: 0;}
+.tab-page .form-group.no_label button{ background: #f48736; border-bottom: 2px solid #c38a3a; color: #fff; font-size: 18px; font-weight: 600; padding: 10px 40px; width: 100%; font-family: 'Muli'; border: none; text-transform: uppercase;}
+.tab-page .form-group.no_label button:hover{ background: #DF7322;}
+.head_text_inner{ width: 100%; float: left; display: inline-block;}
+.head_text_inner h2{ color: #ffffff; font-size: 50px; font-weight: 500; margin: 0;}
+.new_vendorwrp{ display: inline-block; padding: 30px 0 0; width: 100%;}
+.new_vendorwrp h2.title{ color: #2d2d2d; font-size: 40px; font-weight: 100;}
+.vendor_sign{ width: 100%; display: inline-block; float: left;}
+.vendor_benifitstxt{ width: 100%; float: left; display: inline-block; padding: 30px 0 0;}
+.vendor_benifitstxt h3{ color: #2d2d2d; display: inline-block; font-size: 16px; font-weight: 300; letter-spacing: 0.5px; line-height: 23px; margin: 0 0 20px; text-align: justify;}
+.vendor_benifitstxt ul{ padding: 0; width: 100%; display: inline-block;}
+.vendor_benifitstxt ul li{ background: rgba(0, 0, 0, 0) url("../images/vndorarrow_rht.png") no-repeat scroll left center; color: #2d2d2d; display: inline-block; font-size: 15px; font-weight: 300G; padding: 16px 0 16px 15px; width: 100%;}
+.vedor_tophead{ display: inline-block; float: left; padding: 40px 0 0; width: 100%;}
+.vedor_tophead h2{ /*background: rgba(0, 0, 0, 0) url("/images/vndr_info.png") no-repeat scroll left center; */
+font-size: 30px; font-weight: 600; margin: 0; padding: 0; text-align: center;}
+.tab-page .form-group.submit{ border: none}
+.tab-page .form-group label{ float: left; font-size: 14px; font-weight: 400 !important; margin: 0; padding: 6px 10px; width: 30%;}
+.tab-page .form-group input, .tab-page .form-group select{ border: none; border-radius: 0!important; box-shadow: none; color: #444; float: left; line-height: 40px; padding: 5px 10px; font-family: 'Muli'; width: 100%; height: 50px; font-size: 17px;}
+.tab-page .form-group{ border: 1px solid #dadada; float: left; width: 100%}
+.tab-page .form-group select{ background-color: #fff !important; height: 35px;}
+.tab-page .form-group.coupon input{ width: 52%}
+.tab-page .form-group.no-border{ border: none; margin: -10px 0 0}
+.tab-page .form-group.no-border label{ padding: 0; width: 100%; text-align: left}
+.tab-page .form-group.coupon .btn{ background: #ffbd2f; border: none; border-radius: 0; color: #333; padding: 7px 0; text-transform: capitalize; width: 15%}
+.tab-page .form-group.coupon .btn:hover{ background: #333; color: #ffbd2f}
+.tab-page .form-group.no-border label h3{ width: auto}
+.tab-page .form-group.no-border label .btn{ background: #ffbd2f; border: none; border-radius: 0; color: #333; float: right; padding: 7px 15px; text-transform: capitalize; width: auto; margin: 0}
+.tab-page .form-group.no-border label .btn:hover{ background: #333; color: #ffbd2f}
+.corporatepage #frmVendorSignup input{ background: none;}
+.form-control{ border-radius: 0}
+.tab-page .form-group .pick_time{ float: left; width: 67%; border-left: 1px solid #aaa}
+.tab-page .form-group .pick_time input{ border: none; box-shadow: none; color: #666; float: left; line-height: 14px; margin: 0; padding: 7px 10px; width: 50%; cursor: pointer; background: #fff}
+.tab-page .form-group textarea{ padding: 7px 10px; float: left; width: 100%; border: none; color: #666; height: 100px; resize: none; font-family: 'Muli'; font-size: 18px; box-shadow: none; line-height: 15px; border-radius: 0!important}
+.tab-page .form-group.no_label label.right{ margin: -4px 0 0; vertical-align: top; width: 35%}
+.tab-page .form-group.no_label input:active{ background-color: #c38a3a!important; box-shadow: none; border-bottom: 2px solid #ffbd2f}
+.tab-page .form-group.no_label input[type=submit]:hover{ background: #ffbd2f; color: #2d2d2d}
+.tab-page .form-group.no_label input[type=checkbox]{ margin: 0 7px 0 0; width: auto}
+h1.title{ color: #333; font-size: 30px; font-weight: 400; line-height: 28px; margin: 20px 0 10px; padding: 10px 0; text-align: left; float: left; width: 100%}
+.sitemap-page .page-interlinking_content{ padding: 15px 0; min-height: 580px;}
+.sitemap-page .page-interlinking_content .outer .inner_a{ pointer-events: none;}
+.sitemap-page .page-interlinking_content .outer .inner_a li{ background: none; pointer-events: none; pointer-events: none;}
+.sitemap-page .page-interlinking_content .outer .inner_b{ display: block !important; margin-bottom: 10px;}
+.sitemap-page .page-interlinking_content .outer .inner_b li{ width: 33%;}
+.tnc-modal{ opacity: 1!important;}
+.tnc-modal .modal-header{ padding: 15px;}
+.tnc-modal .modal-header .close{ font-size: 25px; opacity: 1;}
+.tnc-modal .flexbox{ display: flex; height: 100%; justify-content: center; align-items: center;}
+.tnc-modal .modal-title{ width: auto; font-weight: 700; font-size: 20px; line-height: 25px;}
+.tnc-modal .modal-body{ font-size: 15px; line-height: 20px; color: #757575;}
+.tnc-modal ul li{ margin: 0 0 5px;}
+.api_wrp{ display: inline-block; width: 100%; padding: 0 0 20px;}
+.api_wrp h1{ font-size: 32px; font-weight: 400; margin: 0 0 15px}
+.api_wrp p{ font-size: 15px; font-weight: 400}
+.api_wrp p span{ color: #337ab7; text-decoration: underline}
+.api_wrp .api_sec h2{ font-size: 22px; font-weight: 400}
+.api_wrp .api_sec ul{ width: 100%; display: inline-block}
+.api_wrp .api_sec ul li{ background: url(../images/arrow_rht.png) left center no-repeat rgba(0, 0, 0, 0); font-size: 14px; font-weight: 500; padding: 5px 0 5px 15px;}
+.vendor_sign h3{ display: none;}
+.couponspart_con{ margin: 20px 0 25px}
+.couponspart_con h1{ font-size: 30px; font-weight: 400; line-height: 35px; margin: 0;}
+.mar_logo{ margin: 0 0 20px; border: 1px solid #cdcdcd}
+.confir_maintxt, .confirm_leftcon, .confirm_leftcon .confirm_leftconfst .trip_table, .confirm_leftcon .confirm_leftconfst .trip_table ul li, .confirmation_wrapper, .couponspart_con, .couponspart_con h3, .mar_logo, .mar_logo a, .mar_logo a img, .top_textbanner{ width: 100%; display: inline-block}
+/*================ Coupon page css start here ======================*/
+.coupon_bannerimg_wrp img{ display: inline-block; max-width: 100%; width: 100%;}
+.hmcpn_wrap{ margin: 30px 0; width: 100%;}
+.hmcpn_wrap .stp{ font-size: 12px; padding: 20px; width: 100%}
+.hmcpn_wrap .couponhone{ font-size: 30px; margin: 0; padding: 0; text-align: center; text-transform: capitalize; width: 100%;}
+.hmcpn_wrap .stp{ font-size: 12px; padding: 20px; width: 100%}
+
+.cpn_thmbnle{ background-color: #fff; margin: 0 0 30px; padding: 0; display: flex; flex-wrap: wrap; width: 100%; float: left;}
+.cpn_thmbnle .textbox{ padding: 10px; background: #efe8e8; flex: 0 0 45%; text-align: center;}
+.cpn_thmbnle .valuebox{ padding: 10px 15px;  background: #fcb82e; color: #fff; flex: 0 0 55%;}
+.cpn_thmbnle .valuebox a{ color: #fff; text-decoration: underline;}
+.cpn_thmbnle .stripbar{ flex: 0 0 100%; background: #dc9c3d; padding: 5px 15px; color: #fff;}
+.cpn_thmbnle .stripbar > span{border: 1px solid #fff; padding: 0 10px; border-radius: 15px; font-size: 13px; line-height: 20px; display: inline-block; vertical-align: middle; margin: 0 10px 0 0;}
+.cpn_thmbnle .stripbar p{ float: right; margin: 0; font-size: 14px; font-weight: 400;}
+.cpn_thmbnle .stripbar p span{  font-weight: 600; margin-right: 5px;}
+.cpn_thmbnle .date{ display: flex; padding: 3px 10px; color: #fff; font-size: 15px; line-height: 24px; justify-content: space-between; align-items: center; height: 30px; float: left; width: 100%;}
+.cpn_thmbnle h2{ color: #000; font-size: 23px; line-height: 30px; font-weight: 700; margin: 0; padding: 0 0 10px; text-transform: capitalize; width: 100%;}
+.cpn_thmbnle ul li{ color: #777; font-size: 15px; line-height: 25px; font-weight: 400; margin: 0 0 2px;}
+.cpn_thmbnle ul li span{ font-weight: 700; font-size: 15px; display: inline-block; margin-right: 5px; min-width: 100px;}
+.cpn_thmbnle ul li a{ text-decoration: underline; color: #364e65;}
+.cpn_thmbnle h2 span{ display: inline-block;}
+.cpn_thmbnle .highlite{ display: inline-flex; width: 100px; height: 100px; justify-content: center; flex-direction: column; font-size: 25px; line-height: 35px; text-align: center; text-transform: uppercase; border: 3px solid #e8a213; color: #000; background: #fcb82e; border-radius:50%;}
+.cpn_thmbnle .highlite small{ display: block; font-size: 20px; line-height: 25px; font-weight: 400; }
+.cpn_thmbnle .valuebox p{ font-size: 16px; font-weight: 600; line-height: 20px; margin: 0 0 15px; min-height: 40px; color: #713e07;}
+.cpn_thmbnle .txt{ color: #757575; font-size: 15px; line-height: 20px; font-weight: 400; margin: 10px 0 0; width: 100%;}
+.cpn_thmbnle .call_toact{ text-align: center; width: 130px; line-height: 30px; border: 2px dashed #403c3c; display: inline-block; margin: 10px 0 0;}
+.cpn_thmbnle .call_toact>span{ display: block; font-size: 16px;}
+.coupons_top-align{ display: inline-block; width: 100%; margin: 0 0 50px;}
+
+
+.coupon_process{ background: #f0f0f0; padding: 0 0 30px }
+.coupon_process .hmcpn_wrap{ margin: 40px 0 20px;}
+.coupon_process ol{ list-style: none; padding: 0;}
+.coupon_process ol li{ font-size: 15px; position: relative; line-height: 20px; text-align: center; color: #454545; float: left; width: 20%; padding: 0 5px;}
+.coupon_process ol li::after{ position: absolute; left: 50%; top: 50px; content: ''; border-top: 2px dashed #FF971C; width: 100%}
+.coupon_process ol li:last-child::after{ display: none;}
+.coupon_process ol li p{ font-size: 15px; line-height: 20px;}
+.coupon_process ol li span{ display: inline-block; vertical-align: top; width: 100px; height: 100px; border-radius: 50%; background: #FF971C; margin: 0 0 15px; color: #fff; font-size: 45px; line-height: 100px; position: relative; z-index: 1; transition: .5s;}
+.coupon_process ol li:hover span{ transform: scale(1.1);}
+
+/*================ Review css start here ======================*/
+.review_pagehold { background-color: #f3f4f6;  border-bottom: 2px solid #eaeaea;  float: left;  width: 100%}
+.review_header { width: 100%;  padding: 20px 0; }
+.review_header h3 { color: #959594;  font-size: 26px;  font-weight: 600;  margin: 15px 0; }
+.review_pageinterwrp { background-color: #fff;  float: left;  margin: 20px 0 0;  width: 100%}
+.review_txtcon { width: 100%}
+.review_txtcon h3 { color: #474747;  font-size: 25px;  font-weight: 400;  margin: 5px 0 30px}
+.review_txtcon .contet_wp { border-bottom: 1px solid #e6e6e6;  padding: 15px 0 20px;  width: 100%}
+.review_txtcon .contet_wp:first-child { padding-top: 0; }
+.review_txtcon .contet_wp .contet { background: url(../images/bullet.png) no-repeat rgba(0, 0, 0, 0);  font-size: 15px;  font-weight: 400;  line-height: 25px;  padding: 0 0 10px 58px;  margin: 0;  width: 100%;  color: #666;  min-height: 50px; }
+.review_txtcon .contet_wp .user_comments { color: #2d2d2d;  display: inline-block;  font-size: 15px;  font-weight: 600;  margin: 0;  padding: 0 0 0 58px;  width: auto}
+.review_txtcon .contet_wp img { float: right}
+
+
+/*================ Responsive css start here ======================*/
+@media screen and (max-width: 1920px) and (min-width: 1420px){ .api_wrp{ min-height: 545px;}
+.Cancellation_wrap{ min-height: 505px;}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px){
+	.aboutus-page .aboutlisting ul li span{ font-size: 18px;}
+	.hmcpn_wrap{ margin: 40px 0;}
+	.cpn_thmbnle h2{ font-size: 18px; line-height: 25px;}
+	.cpn_thmbnle p{ font-size: 14px;}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.aboutus-page .aboutlisting ul li{ width: 32.5%; float: none; display: inline-block; vertical-align: top; margin: 0 0 40px;}
+	.aboutus-page h3, .aboutus-page h1{ font-size: 30px; line-height: 40px; margin: 0 0 15px;}
+	.aboutus-page .aboutlisting ul li img{ margin: 0 0 15px;}
+	.aboutus-page .aboutlisting ul li span{ font-size: 17px; line-height: 22px;}
+	h1.title{ font-size: 22px; padding: 0;}
+	.corporatepage .new_vendorwrp p{ font-size: 20px; line-height: 25px; margin: 0 0 20px;}
+	.corporatepage .col-md-6 .vedor_tophead h2{ font-size: 20px;}
+	.vendorpage_iconholder ul li .text{ font-size: 16px; line-height: 22px;}
+	.vendorpage_iconholder ul li{ padding: 0 0 35px;}
+	.vendor_bootomtextholder{ margin: 25px 0 0;}
+	.vendor_bootomtext h2, .vendor_bootomtext h1{ font-size: 28px;}
+	.contact_wrap{ margin: 50px 0;}
+	.contact_wrap h1{ font-size: 35px; line-height: 50px;}
+	.contact_wrap h1 i{ font-size: 30px;}
+	.reach_loc .add_con{ margin: 0 0 10px;}
+	.reach_loc .add_con p{ font-size: 16px; line-height: 22px;}
+	.cpn_thmbnle{ margin: 0 0 20px; width: 100%;}
+	.hmcpn_wrap{ margin: 30px 0;}
+	.hmcpn_wrap .couponhone{ font-size: 25px;}
+	.cpn_thmbnle .valuebox{ width: 45%; padding: 10px;}
+	.cpn_thmbnle .textbox{ padding: 10px; width: 55%;}
+	.cpn_thmbnle p{ font-size: 14px; line-height: 18px;}
+	.cpn_thmbnle ul li{ line-height: 20px;}
+	.cpn_thmbnle ul li span{ min-width: 80px;}
+	.cpn_thmbnle .txt{ font-size: 14px; line-height: 18px;}
+	.cpn_thmbnle h2{ font-size: 18px; line-height: 22px;}
+	.cpn_thmbnle .date{ padding: 3px 5px; font-size: 14px;}
+	.cpn_thmbnle .call_toact{ width: 135px;}
+	.cpn_thmbnle .call_toact > span{ font-size: 15px; line-height: 25px;}
+	.cpn_thmbnle .stripbar{ padding: 5px 10px;}
+	.cpn_thmbnle .stripbar p{ font-size: 13px; margin: 5px 0 0;}
+	.cpn_thmbnle .valuebox p{ font-size: 14px; line-height: 16px;}
+	.cpn_thmbnle .stripbar > span{ margin: 0; padding: 0 5px;}
+	.coupon_process ol li span{ width: 80px; height: 80px; line-height: 80px; font-size: 30px;}
+	.coupon_process ol li p{ font-size: 14px; line-height: 18px;}
+	.coupons_top-align{ margin: 0 0 30px;}
+	.coupons_top-align .col-lg-6{ float: none; display: inline-block; vertical-align: top; margin: 0 -2px;}
+	.coupon_process .hmcpn_wrap{ margin: 30px 0 20px;}
+	.coupon_process ol li{ font-size: 20px; line-height: 30px;}
+	.coupon_process{ padding: 0 0 20px;}
+}
+@media screen and (max-width: 767px){
+	.aboutlisting, .aboutlisting .container{ padding: 0;}
+	.aboutus-page .cms-banner{ margin: 0 0 15px;}
+	.aboutus-page h3, .aboutus-page h1{ font-size: 22px; line-height: 30px; margin: 0 0 10px;}
+	.main_container .abt_wrap p{ font-size: 13px; line-height: 18px;}
+	.abt_wrap{ padding-bottom: 10px;}
+	.aboutus-page .aboutlisting ul li{ width: 32%; margin: 0 0 20px; padding: 0 2px;}
+	.aboutus-page .aboutlisting ul li span{ font-size: 13px; line-height: 18px;}
+	.aboutus-page .aboutlisting ul li img{ width: 45px; margin: 0 0 5px;}
+	.aboutlisting.services{ padding: 15px 0 0; overflow: hidden;}
+	h1.title{ font-size: 18px; line-height: 24px; padding: 0; margin: 15px 0 5px;}
+
+	.partnerLogos .col-lg-2{ width: 33.33%; padding: 0; float: none; display: inline-block; vertical-align: top; margin: 0 -2px;}
+	.mar_logo{ margin: 0; border-bottom: 0; border-left: 0;}
+	.partnerLogos .col-lg-2:nth-child(3n+3){ border-right: 0;}
+	.wrp_trmsosevice p, .Cancellation_wrap~p, .Cancellation_wrap~ul li p, .privacy-page p{ font-size: 13px;}
+	.corporatepage .col-md-6 .vedor_tophead h2{ font-size: 20px;}
+	.corporatepage #frmVendorSignup .form-group .placeholdr{ top: 6px; font-size: 14px; left: 0;}
+	.corporatepage #frmVendorSignup .form-group .placeholdr.active{ font-size: 13px; left: 0; padding: 0;}
+	.corporatepage #frmVendorSignup .form-group{ margin: 0 0 25px;}
+	.corporatepage .vedor_tophead{ padding: 0;}
+	.corporatepage .col-md-12 .vedor_tophead{ padding: 20px 0 10px;}
+	.corporatepage .col-md-12 .vedor_tophead h2{ font-size: 20px; padding: 0 0 10px;}
+	.corporatepage .col-md-12 .vedor_tophead span{ font-size: 14px; line-height: 16px;}
+	.corporatepage .new_vendorwrp p{ font-size: 16px; line-height: 20px; margin: 0 0 20px;}
+	#frmVendorSignup .form-group input{ padding: 5px 0; font-size: 15px; height: 40px; border: none; border-bottom: 1px solid #dadada; box-shadow: none;}
+	#frmVendorSignup .form-group textarea{ font-size: 15px; box-shadow: none; padding: 0; border: none; border-bottom: 1px solid #dadada;}
+	.vendor_sign .form-group .sendEnqPopError{ top: 35px !important; margin-top: 5px;}
+	.vendor_sign .form-group.add .sendEnqPopError{ top: 95px !important;}
+	.vedor_tophead h2{ font-size: 20px;}
+	.new_vendorwrp{ padding: 15px 0 0;}
+	#frmVendorSignup .vendortype label{ font-size: 15px; padding: 5px 0; width: 100px;}
+	.select_box_vendor{ width: calc(100% - 110px);}
+	#frmVendorSignup .form-group select{height: 40px; font-size: 15px; line-height: 25px; box-shadow: none; border: none; border-bottom: 1px solid #dadada; padding: 0;}
+	.select_box_vendor .fa, #frmVendorSignup .form-group.check_bxwrp .form_elemt .fa{ font-size: 16px; top: 12px;}
+	#frmVendorSignup .form-group.check_bxwrp label{ font-size: 15px; width: 200px; padding: 5px 0;}
+	#frmVendorSignup .form-group.check_bxwrp .form_elemt{ width: calc(100% - 210px);}
+	#frmVendorSignup .form-group.submit button{ height: 40px; font-size: 18px; padding: 8px 10px 12px;}
+	.vendorpage_iconholder{ padding: 20px 0;}
+	.vendorpage_iconholder ul li .text{ font-size: 15px; line-height: 17px;}
+	.vedor_tophead{ padding: 15px 0 0;}
+	.vendorpage_iconholder ul li{ padding: 10px 0;}
+	.vendor_bootomtextholder{ padding: 15px 0 20px; margin: 10px 0 0;}
+	.vendor_bootomtext h2, .vendor_bootomtext h1{ font-size: 16px; padding: 0 0 10px;}
+	.vendor_bootomtext p{ font-size: 14px; line-height: 20px;}
+	.vendorpage_iconholder ul li .text{ font-size: 14px;}
+	.contact_wrap{ margin: 10px 0 5px;}
+	.contact_wrap h1{ font-size: 20px; margin: 0 0 10px; line-height: 25px;}
+	.reach_form .form-group>.btncontact{ height: 40px; min-width: 100%;}
+	.reach_loc .add_con h5{ font-size: 16px; margin: 0 0 10px;}
+	.reach_loc .add_con p{ font-size: 14px; line-height: 20px;}
+	.reach_loc .add_con h5 i, .reach_mob h5 i{ font-size: 20px;}
+	.reach_loc .add_con{ margin: 0;}
+	.reach_form #frmVendorSignup .form-group textarea{ height: 100px; border: none; border-bottom: 1px solid #dadada; box-shadow: none; padding: 0;}
+	.contact_wrap .reach_form .form-group span{ top: 40px;}
+	#frmVendorSignup .form-group{ margin: 0 0 20px;}
+	.wrp_trmsosevice strong, .privacy-page strong{ font-size: 15px;}
+	.sitemap-page .page-interlinking_content .outer .inner_a li{ padding-left: 0;}
+	.sitemap-page .page-interlinking_content .outer .inner_b{ padding: 0;}
+	.sitemap-page .page-interlinking_content .outer .inner_b li{ width: 50%;}
+	.sitemap-page .page-interlinking_content .outer .inner_b li a{ font-size: 14px; line-height: 16px;}
+	.cms-title{ font-size: 20px; line-height: 25px; margin: 0 0;}
+	.tab-page .form-group{ border: none;}
+	.tab-page .form-group input, .tab-page .form-group select{ height: 40px; font-size: 14px; box-shadow: none; border: none; border-bottom: 1px solid #dadada; padding: 0;}
+	.tab-page .form-group textarea{ font-size: 14px; box-shadow: none; border: none; border-bottom: 1px solid #dadada; padding: 0;}
+	.tab-page .form-group.submit{ margin: 0;}
+	.affilliates_txtrhtwrp p{ font-size: 13px; line-height: 18px;}
+
+	.affilliates_txtrhtwrp ul li{ font-size: 14px;}
+	.affilliates_wrp .form-group.addrs .sendEnqPopError{ top: 100px !important;}
+	.affilliates_txtrhtwrp ul li.arw{ font-size: 13px; line-height: 18px;}
+	.affilliates_wrp .form-group .sendEnqPopError{ top: 40px;}
+	.api_wrp h1, .main_container_common.wrap_con h2.title{ font-size: 20px;}
+	.couponspart_con{ margin: 0 0 10px;}
+	.couponspart_con h1{ font-size: 20px; line-height: 25px; margin: 15px 0 5px;}
+	.cpn_thmbnle .textbox{ width: 60%; padding: 10px 10px;}
+	.cpn_thmbnle .valuebox{ width: 40%; padding: 10px 10px;}
+	.cpn_thmbnle{ margin: 0 0 15px; width: 100%; padding: 0;}
+	.hmcpn_wrap .couponhone{ font-size: 18px; line-height: 25px;}
+	.hmcpn_wrap{ margin: 15px 0;}
+	.cpn_thmbnle h2{ font-size: 16px; line-height: 20px; padding: 0;}
+	.cpn_thmbnle .date{ flex-direction: column; background: #39474F; height: auto; line-height: 20px; align-items: flex-start; padding: 5px 10px;}
+	.cpn_thmbnle .date small{ width: 100%; display: block;}
+	.cpn_thmbnle p{ font-size: 14px; line-height: 18px;}
+	.cpn_thmbnle .txt{ font-size: 13px; line-height: 15px; margin: 5px 0 0;}
+	.cpn_thmbnle .highlite{ font-size: 20px; line-height: 20px; padding: 0; margin: 0 0 10px; width: 70px; height: 70px;}
+	.cpn_thmbnle .highlite small{ font-size: 16px; line-height: 20px;}
+	.cpn_thmbnle .call_toact{ width: 100px; margin: 0 auto; display: block; text-align: center;}
+	.cpn_thmbnle .call_toact > span{ font-size: 14px;}
+	.cpn_thmbnle ul li{ font-size: 14px;}
+	.cpn_thmbnle .valuebox p{ font-size: 14px; line-height: 18px; margin: 10px 0;}
+	.cpn_thmbnle .stripbar{ padding: 5px 10px;}
+	.cpn_thmbnle .stripbar > span{ padding: 0 5px; margin: 0; font-size: 12px;}
+	.cpn_thmbnle .stripbar p{ font-size: 13px; margin: 3px 0;}
+
+	.coupons_top-align{ margin: 0 0 10px;}
+	.coupons_top-align .col-lg-6{ padding: 0;}
+	.coupon_process{ padding: 0 0 5px;}
+	.coupon_process .hmcpn_wrap{ margin: 15px 0 10px;}
+	.coupon_process ol{ padding: 0;}
+	.coupon_process ol li{ font-size: 15px; line-height: 20px; margin: 0 0 10px; text-align: left; width: 100%; display: flex; align-items: center; padding: 0;}
+	.coupon_process ol li::after{ display: none;}
+	.coupon_process ol li span{ width: 50px; line-height: 45px; height: 50px; font-size: 25px; margin: 0 10px 0 0; float: left; text-align: center;}
+	.coupon_process ol li p{ display: inline-block; width: calc(100% - 70px); margin: 0;}
+
+	.review_header{ padding: 15px 0;}
+	.review_header h3{ margin: 0; font-size: 20px;}
+	.review_txtcon .contet_wp .contet{ font-size: 13px; line-height: 20px; padding: 0 0 5px 60px;}
+	.review_txtcon .contet_wp .user_comments{ font-size: 13px;}
+	.review_txtcon .contet_wp{ padding: 10px 0;}
+	.review_txtcon .contet_wp img[alt="Pepsico Logo"]{ float: none; margin: 10px 0 0 55px;}
+}
+
+@media screen and (min-width: 567px) and (max-width: 767px){
+	.partnerLogos .col-lg-2{ width: 20%;}
+}

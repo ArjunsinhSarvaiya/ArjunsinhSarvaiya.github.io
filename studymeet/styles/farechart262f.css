@@ -1,0 +1,716 @@
+.cabfare_wpr{ display: inline-block; float: left; width: 100%; background-color: #f1f1f1; padding: 0 0 20px; position: relative;}
+.cabfare_tab{ width: 100%; float: left; background: #fff; padding: 0 0 0; display: inline-block;}
+.cabfare_tab .cabtabs-menu{ width: 100%; display: inline-block; padding: 0 30px; margin: 0; list-style: none; float: left; background-color: #fff;}
+.cabfare_tab .cabtabs-menu li{ width: auto; display: inline-block;}
+.cabfare_tab .cabtabs-menu li h2{ color: #868686; display: inline-block; font-size: 19px; font-weight: 400; outline: medium none; padding: 20px 0; text-decoration: none; width: auto; margin: 0;}
+.cabfare_tab .cabtabs-menu li.add h2{ color: #3F3F3F;}
+.cabfare_tabcontent{ width: 100%; margin: 25px 0 0;}
+.cabfare_tabcontent #tab-a{ display: block;}
+.cabfare_tabcontent .tab_itm{opacity: 1!important; display: none;}
+.cabfare_wpr.no-tabb .cabfare_tabcontent .tab_itm{ display: block;}
+.cabfare_tabcontent .tab_itm>ul{ display: inline-block; vertical-align: middle; padding: 0; width: 100%; margin: 0; list-style: none;}
+.cabfare_tabcontent .tab_itm ul li{ width: 100%; float: left; background: #fff; margin: 0 0 2px;}
+.cabfare_tabcontent .tab_itm ul li .sale_msg{ position: absolute; right: -7px; top: -12px;}
+.cabfare_tabcontent .tab_itm ul li.head{ padding: 15px 0 17px; display: none; background-color: #f5f4f0; margin: 0 0 2px;}
+.cabfare_tabcontent .tab_itm ul li.head span{ color: #2d2d2d; display: inline-block; font-size: 15px; font-weight: 500; text-align: center; width: 19.6%;}
+.cabfare_tabcontent .tab_itm>ul>li.ord{ padding: 10px 0; box-shadow: 2px 2px 3px #ddd; display: flex; align-items: center; flex-wrap: wrap; position: relative;}
+.cabfare_tabcontent .tab_itm>ul>li .carlistpopup_holder{ margin: 10px 0 -10px; border-top: 1px solid #ddd; display: none; float: left; width: 100%; position: relative;}
+.cabfare_tabcontent .carlistpopup_holder .farebreak{ float: left; width: 50%;}
+.cabfare_tabcontent .carlistpopup_holder .exinbox{ float: left; width: 50%; padding: 0 15px 5px; border-left: 1px solid #ccc;}
+.cabfare_tabcontent .carlistpopup_holder .exinbox h4{ font-size: 15px; line-height: 20px; font-weight: 600; color: #444; margin: 10px 0 5px;}
+.cabfare_tabcontent .carlistpopup_holder .exinbox ul{ display: inline-block; width: 100%;}
+.cabfare_tabcontent .carlistpopup_holder .exinbox ul li{ position: relative; padding: 0 0 2px 12px;}
+.cabfare_tabcontent .carlistpopup_holder .exinbox ul li:after{ position: absolute; left: 0; top: 8px; width: 6px; height: 6px; content: ''; border-radius: 50%; background: #999;}
+.cabfare_tabcontent .carlistpopup_holder .farebreak h4{ border-bottom: 1px solid #ddd; padding: 10px 15px; margin: 0; font-size: 16px; color: #fd8b2a; font-weight: 600;}
+.cabfare_tabcontent .carlistpopup_holder .farebreak ul{ margin: 0 15px;}
+.cabfare_tabcontent .carlistpopup_holder .farebreak ul li{ border-bottom: 1px solid #ddd; padding: 5px 0;}
+.cabfare_tabcontent .carlistpopup_holder .farebreak ul li.base_fare span{ font-weight: 600 !important; font-family: 'Muli';}
+.cabfare_tabcontent .tab_itm ul li.ord span{ color: #2d2d2d; display: inline-block; font-size: 13px; font-weight: 400; text-align: center; vertical-align: middle;}
+.cabfare_tabcontent .tab_itm ul li.ord span.fst{ text-decoration: line-through;}
+.cabfare_tabcontent .tab_itm ul li.ord .carinfo{ width: 35%; padding: 0 0 0 20px; text-align: left;}
+.cabfare_tabcontent .tab_itm ul li.ord .carinfo:focus{ outline: none;}
+.cabfare_tabcontent .tab_itm ul li.ord .carinfo img{ max-width: 120px; display: inline-block; vertical-align: middle;}
+.cabfare_tabcontent .tab_itm ul li.ord .feature{ width: calc(65% - 170px); display: inline-block; vertical-align: middle; padding: 0 5% 0 2%;}
+.cabfare_tabcontent .tab_itm ul li.ord .feature.four{ padding: 0 0 0 6%;}
+.cabfare_tabcontent .tab_itm ul li.ord .feature li{ display: inline-block; vertical-align: top; width: 32%; float: none; margin: 0; font-size: 14px; color: #9e9a9a; padding: 5px 10px 5px 0;}
+.cabfare_tabcontent .tab_itm ul li.ord .feature.four li{ width: 40%;}
+.cabfare_tabcontent .tab_itm ul.feature li small{ display: inline-block; vertical-align: middle; width: 27px; height: 27px; background: url(../images/fares/features_sprite.png) no-repeat; margin: 0 10px 0 0;}
+.cabfare_tabcontent .tab_itm ul.feature li small.seat{ background-position: -95px -3px;}
+.cabfare_tabcontent .tab_itm ul.feature li small.bag{ background-position: -47px -1px;}
+.cabfare_tabcontent .tab_itm ul.feature li small.ac{ background-position: -140px -1px;}
+.cabfare_tabcontent .tab_itm ul.feature li small.km{ background-position: -190px -5px;}
+.cabfare_tabcontent .tab_itm ul.feature li small.hour{ background-position: -236px -2px;}
+.cabfare_tabcontent .tab_itm ul.feature li small.car{ background-position: 2px -3px;}
+.cabfare_tabcontent .tab_itm ul.feature li small.rupee{ background-position: -278px -2px;}
+.cabfare_tabcontent .tab_itm ul li.ord .feature li img{ display: inline-block; margin: 0 10px 0 0;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area{ display: inline-block; vertical-align: middle; width: 160px; text-align: center;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area li{ margin: 0; float: none; display: inline-block; vertical-align: middle; width: auto;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area .fa-info-circle{ color: #9a9794;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area li.fst{ text-decoration: line-through; font-size: 16px; color: #7a7879;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area li .amount_tag{ color: #333; font-size: 25px; line-height: 30px; font-weight: 400; display: block; cursor: pointer;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area li .amount_tag i{ display: none;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area li .amount_tag:focus{ outline: none;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area button{ color: #ff9305; border: 0; font-size: 35px; line-height: 30px; display: inline-block; font-weight: 400; width: 35px; background: none; text-align: right; height: 30px;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area button:focus{ outline: none; box-shadow: none;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area .showfare{ background: url(../images/fares/fair_detail7e49.png?v0.2) no-repeat 84px 2px; color: #3d9cd8; line-height: 20px; font-size: 14px; padding: 0 20px 0 0; cursor: pointer;}
+.cabfare_tabcontent .tab_itm ul li.ord .price_area .showfare.reverse{ background-position: 84px -16px;}
+.car_benefits.citypage{ margin: 15px 0 0;}
+.car_benefits.citypage ul{ text-align: center;}
+.car_benefits.citypage ul li{ font-size: 16px; margin: 0; display: inline-block; border: 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span.carname{ width: 30%;}
+.cabfare_tabcontent .tab_itm ul li.ord span.mob_hide-feature{ width: 20%;}
+.cabfare_tabcontent .tab_itm ul li.ord span.go{ width: 15%;}
+.cabfare_tabcontent .tab_itm ul li.ord span.go a{ background: #b0b0b0; display: flex; justify-content: center; align-items: center; color: #fff; font-size: 40px; height: 75px; padding: 0 10px; transition: .3s; text-align: center;}
+.cabfare_tabcontent .tab_itm ul li.ord span.go a:hover{ background: #FF9305;}
+.cabfare_tabcontent .tab_itm ul li.ord span.feature ul .spr_deal{ width: 100%; display: inline-block; padding: 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul li.spr_deal strong{ background: rgba(0, 0, 0, 0) url("../images/listing-icon5.png") no-repeat scroll left 0; color: #2d2d2d; display: inline-block; font-size: 13px; font-weight: 400; padding: 0 0 0 25px; width: auto;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul li.spr_deal:last-child strong{ color: #328dba; cursor: pointer;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul{ padding: 0; margin: 0; display: inline-block; width: 100%; text-align: center;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul li{ display: inline-block; float: none; width: auto; color: #2d2d2d; font-size: 16px; font-weight: 400; padding: 25px 12px 0; position: relative; margin: 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul li.people{ background: rgba(0, 0, 0, 0) url("../images/listing-icon1.png") no-repeat scroll center 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul li.luggage{ background: rgba(0, 0, 0, 0) url("../images/listing-icon2.png") no-repeat scroll center 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul li.ac{ background: rgba(0, 0, 0, 0) url("../images/listing-icon4.png") no-repeat scroll center 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span b{ width: 100%; display: inline-block; color: #575757; font-size: 16px; line-height: 22px; font-weight: 600;}
+.cabfare_tabcontent .tab_itm ul li.ord span strong{ margin: 5px 0px 5px 10px; display: inline-block; width: calc(100% - 145px); vertical-align: middle; color: #888; font-size: 17px; line-height: 20px; font-weight: 600;}
+.cabfare_tabcontent .tab_itm ul li.ord span strong small{ display: block; font-size: 100%;}
+.cabfare_tabcontent .tab_itm ul li.ord span.mob_fare-img img, .cabfare_tabcontent .tab_itm ul li.ord span.mob_viewopen img{ max-width: 100%; display: inline-block; width: 150px;}
+.cabfare_tabcontent .tab_itm ul li.green{ border-left: 8px solid #b0d660;}
+.cabfare_tabcontent .tab_itm ul li.blue{ border-left: 8px solid #60abd6;}
+.cabfare_tabcontent .tab_itm ul li.orange{ border-left: 8px solid #ff9921;}
+.cabfare_tabcontent .tab_itm ul li.red{ border-left: 8px solid #e9597b;}
+.cabfare_tabcontent .tab_itm ul li.volet{ border-left: 8px solid #9c64bf;}
+.cabfare_tabcontent .tab_itm ul li.black{ border-left: 8px solid #373737; border-right: 8px solid #373737;}
+.cabfare_tabcontent .tab_itm ul li.color_identy{ padding: 10px 0 14px; display: none;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream{ display: inline-block; float: left; width: 14%;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream span{ display: inline-block; font-size: 14px; font-weight: 400; color: #2d2d2d; text-transform: uppercase;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream .grn{ display: inline-block; width: 12px; height: 11px; margin: 0 10px 0 0; background-color: #b0d762;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream .blu{ display: inline-block; width: 12px; height: 11px; margin: 0 10px 0 0; background-color: #5dabd1;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream .orng{ display: inline-block; width: 12px; height: 11px; margin: 0 10px 0 0; background-color: #fe9923;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream .red{ display: inline-block; width: 12px; height: 11px; margin: 0 10px 0 0; background-color: #ef5879;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream .volet{ display: inline-block; width: 12px; height: 11px; margin: 0 10px 0 0; background-color: #9f63bd;}
+.cabfare_tabcontent .tab_itm ul li.color_identy .stream .blck{ display: inline-block; width: 12px; height: 11px; margin: 0 10px 0 0; background-color: #373737;}
+.cabfare_wpr .carimg_strm{ bottom: 125px; position: absolute; right: 0; display: none;}
+.cabfare_wpr .carimg_strm img{ display: inline-block; max-width: 100%; height: auto;}
+.cabfare_tabcontent .tab_itm ul li.oneway span{ width: 24.6%;}
+.price_area li i:hover+.app_popup{ display: block;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li{ width: 100%; display: inline-block; padding: 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li.fst{ color: #939393; font-size: 12px; text-decoration: line-through;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li.lst{ color: #0f74ae; font-size: 22px; font-weight: 500; position: relative; cursor: pointer;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li.lst .amount_tag{ color: #0f74ae; font-size: 22px; font-weight: 600; display: inline-block; width: auto;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li.lst .amount_tag:focus{ outline: 0;}
+.cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li.lst a{ display: inline-block; cursor: pointer; width: auto; color: #9b9b9b; font-size: 14px; pointer-events: all;}
+.wrap_strip_template{ display: inline-block; padding: 0 0 25px; width: 100%; background: #fafafa; float: left;}
+.wrap_strip_template.tab_itm{ background: none;}
+.cabfare_wpr .wrap_strip_template{ padding: 0;}
+.cabfare_tabcontent .inner_strip_template{ padding: 15px 0; margin: 0 0 2px; display: flex; align-items: center; flex-wrap: wrap; position: relative;}
+.cabfare_tabcontent .inner_strip_template .carlistpopup_holder{ display: none; margin: 15px 0 -15px; border-top: 1px solid #ddd; float: left; width: 100%;}
+.cabfare_tabcontent .inner_strip_template .carinfo{ display: inline-block; text-align: center; vertical-align: middle; width: 100px;}
+.cabfare_tabcontent .inner_strip_template .carinfo img{ max-width: 50px;}
+.cabfare_tabcontent .inner_strip_template .carinfo strong{ display: block; margin: 10px 0 0; color: #575757; font-weight: 400;}
+.cabfare_tabcontent .inner_strip_template .feature{ display: inline-block; width: calc(70% - 170px); vertical-align: middle; padding: 0;}
+.cabfare_tabcontent .inner_strip_template .feature li{ display: inline-block; vertical-align: top; margin: 0; padding: 2px 10px 2px 0; width: 30%; float: none; color: #9e9a9a; font-size: 14px;}
+.cabfare_tabcontent .inner_strip_template .feature li img{ display: inline-block; margin: 0 10px 0 0;}
+.genric-fare .inner_strip_template{ padding: 0; display: flex; align-items: center; flex-wrap: wrap; margin: 0 0 2px; padding: 10px 0;}
+.genric-fare .inner_strip_template .feature, .genric-fare .inner_strip_template .location_txt, .genric-fare .inner_strip_template .car_img{ display: inline-block; vertical-align: middle; margin: 0; font-size: 15px; font-weight: 400;}
+.genric-fare .inner_strip_template .car_img{ width: 200px; font-size: 15px; line-height: 20px;}
+.genric-fare .inner_strip_template .car_img img{ width: 120px;}
+.genric-fare .inner_strip_template .car_img span{ display: inline-block; vertical-align: middle; color: #b9b4b4; margin: 0 10px; width: calc(100% - 145px);}
+.genric-fare .inner_strip_template .feature{ width: calc(70% - 160px);}
+.genric-fare .inner_strip_template .feature li{ display: inline-block; color: #9e9a9a; font-weight: 400; font-size: 14px; padding: 5px 0 5px 0; vertical-align: top; width: 30%;}
+.genric-fare .inner_strip_template .feature.four li{ width: 24%; padding: 0;}
+.genric-fare .inner_strip_template .feature li img{ display: inline-block; margin: 0 8px 0 0;}
+.genric-fare .inner_strip_template .sec{ vertical-align: middle; padding: 0;}
+.genric-fare.with-fareinfo .inner_strip_template .sec{ width: 290px;}
+.genric-fare.with-fareinfo .inner_strip_template .feature{ width: calc(100% - 775px);}
+.genric-fare.with-fareinfo .inner_strip_template .location_txt{ min-width: 170px;}
+.genric-fare.likegenric .inner_strip_template .sec{ margin: 0;}
+.genric-fare.likegenric .inner_strip_template .car_img{ width: 30%; align-self: stretch; padding: 10px;}
+.genric-fare.likegenric .inner_strip_template .car_img img{ width: 120px; display: inline-block; vertical-align: middle;}
+.genric-fare.likegenric .inner_strip_template .feature{ width: calc(70% - 165px); padding: 0 0 0 2%;}
+.genric-fare.likegenric .inner_strip_template .feature.four{ padding: 0 0 0 2%;}
+.genric-fare .inner_strip_template .feature li small{ display: inline-block; vertical-align: middle; width: 27px; height: 27px; background: url(../images/fares/features_sprite.png) no-repeat; margin: 0 5px 0 0;}
+.genric-fare .inner_strip_template .feature li small.seat{ background-position: -95px -3px;}
+.genric-fare .inner_strip_template .feature li small.bag{ background-position: -47px -1px;}
+.genric-fare .inner_strip_template .feature li small.ac{ background-position: -140px -1px;}
+.genric-fare .inner_strip_template .feature li small.km{ background-position: -190px -5px;}
+.genric-fare .inner_strip_template .feature li small.hour{ background-position: -236px -2px;}
+.genric-fare .inner_strip_template .feature li small.car{ background-position: 2px -3px;}
+.genric-fare .inner_strip_template .feature li small.rupee{ background-position: -278px -2px;}
+.genric-fare .inner_strip_template .fst.mob{ width: 20%; padding: 0 0 0 20px;}
+.genric-fare .inner_strip_template .fst.mob .location_txt{ width: 100%;}
+.genric-fare .inner_strip_template .fst.mob.graypattern{ width: 30%;}
+.genric-fare .inner_strip_template .fst.mob.graypattern p{ color: #098cd9; font-size: 18px;}
+.genric-fare .inner_strip_template .sec > a{ color: #ff9305; border: 0; font-size: 30px; width: 30px; display: inline-block; vertical-align: middle;}
+.genric-fare .inner_strip_template .location_txt{ font-weight: 600; line-height: 22px; color: #098cd9; font-size: 17px; width: 30%; align-self: stretch; padding: 5px 0 5px 20px;}
+.genric-fare .inner_strip_template .location_txt span{ display: block; color: #a09898; font-weight: 400; font-size: 14px;}
+.inner_strip_template{ background-color: #fff; display: inline-block; width: 100%; box-shadow: 2px 2px 3px #ddd;}
+.inner_strip_template a{ display: inline-block; width: 100%; padding: 0; outline: none; text-decoration: none;}
+.inner_strip_template .fst{ display: inline-block; padding: 22px 0; vertical-align: middle;}
+.inner_strip_template .fst.mob{ width: 30%; padding: 0 0 0 15px; display: inline-flex; align-items: center; align-self: stretch;}
+.airport .inner_strip_template .feature{}
+.prefered_car{ position: absolute; left: 0; top: -1px; width: 70px; height: 22px; background: url(../images/prefered.png) no-repeat 0 0;}
+.inner_strip_template .fst.mob .location_txt p{ margin: 0; font-weight: 600; font-size: 18px; line-height: 25px; position: relative; text-align: left; color: #4797d6; padding: 0; display: inline-block;}
+.inner_strip_template .fst.mob .location_txt p.dest{ padding-bottom: 0;}
+.mobv_ratestrip .genric-fare.with-fareinfo .inner_strip_template{ margin: 0;}
+.inner_strip_template .fst.mob .location_txt p i{ margin: 0 10px;}
+.inner_strip_template .fst .location_txt{ display: inline-block; cursor: pointer; font-size: 18px; line-height: 20px; vertical-align: top; background: url(../images/fares/blue-location.png) no-repeat left center; padding: 0 0 0 35px;}
+.inner_strip_template .fst .location_txt:focus{ outline: none;}
+.inner_strip_template .fst.graypattern .location_txt{ background: url(../images/fares/blue-location.png) no-repeat left center; color: #098cd9; align-self: center; font-size: 19px; line-height: 25px;}
+.inner_strip_template .fst .location_txt strong{ width: 100%; display: inline-block; float: left; font-size: 16px; font-weight: 400; color: #2d2d2d; line-height: 20px;}
+.inner_strip_template .fst .location_txt strong p .mob{ display: inline-block; text-transform: none;}
+.inner_strip_template .fst .location_txt strong>span{ color: #7a7a7a; font-size: 15px; font-weight: 500;}
+.inner_strip_template .fst .location_txt strong p{ display: inline-block; width: 100%; text-transform: capitalize; margin: 0; line-height: 17px;}
+.inner_strip_template .fst .location_txt strong p.origin{ font-size: 14px; line-height: 20px;}
+.inner_strip_template .fst .location_txt strong p.dest{ font-size: 18px; line-height: 27px;}
+.inner_strip_template .fst .car_img{ display: inline-block; text-align: center; vertical-align: -5px; width: 40px;}
+.inner_strip_template .sec{ display: inline-block; line-height: 20px; width: 160px; padding: 0 10px; text-align: center;}
+.inner_strip_template .sec div{ display: inline-block; vertical-align: top; margin: 0;}
+.inner_strip_template .sec button{ background: none; color: #ff9305; border: 0; font-size: 35px; line-height: 30px; height: 30px; padding: 0; margin: 0; display: inline-block; font-weight: 400; width: 35px;}
+.inner_strip_template .sec button:focus{ outline: none; border: none; box-shadow: none;}
+.inner_strip_template .sec.info{ vertical-align: middle; display: inline-block; position: relative; cursor: pointer; padding: 0;}
+.inner_strip_template .sec .allow{ margin: 0; text-align: center; color: #2d2d2d; font-size: 10px;}
+.inner_strip_template .sec span{ display: inline-block; text-align: center; margin: 5px 0; min-width: 90px; vertical-align: middle;}
+.inner_strip_template .sec span.rates{ font-size: 25px; font-weight: 400; color: #333; cursor: pointer;}
+.inner_strip_template .sec span.rates a{ color: #333;}
+.inner_strip_template .sec span.rates a i{ display: none;}
+.inner_strip_template .sec span.rates:focus{ outline: none;}
+.inner_strip_template .sec div span.rates{ display: block;}
+.inner_strip_template .sec div span.rates i{ display: none;}
+.inner_strip_template .sec span.trip_types{ color: #828282; font-size: 12px; font-weight: 500;}
+.inner_strip_template .sec span.trip_types{ background: url(../images/fares/fair_detail7e49.png?v0.2) no-repeat 84px 2px; white-space: nowrap; color: #3d9cd8; line-height: 20px; font-size: 14px; padding: 0 20px 0 0; cursor: pointer;}
+.inner_strip_template .sec span.trip_types.reverse{ background-position: 84px -16px;}
+.inner_strip_template .sec span.trip_types .text{ color: #585858; font-size: 10px;}
+.inner_strip_template .sec span.trip_types .text:hover{ text-decoration: underline;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder::after{ border-color: transparent transparent #fbfbfb; border-style: solid; border-width: 12px; content: ""; height: 0; position: absolute; right: 47px; top: -24px; width: 0; z-index: 4;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder::before{ border-color: rgba(101, 0, 0, 0) rgba(172, 115, 159, 0) #ccc; border-style: solid; border-width: 13px; content: ""; height: 0; position: absolute; right: 46px; top: -27px; width: 0;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder{ display: none; right: 0; position: absolute; top: 50px; width: 385px; z-index: 99; background-color: #fff; border: 1px solid #ccc; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); min-height: 150px;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder:hover{ display: block;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder .details{ float: left; padding: 10px 10px 2px; width: 100%;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder .details ul{ padding: 0; margin: 0; display: inline-block; width: 100%; text-align: center;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder .details ul li{ display: flex; width: 100%; text-align: left; padding: 5px 0; font-size: 12px; color: #2d2d2d; font-weight: normal; justify-content: space-between;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder .details ul li.amount{ border-top: 1px solid #ccc;}
+.inner_strip_template .sec span.trip_types .carlistpopup_holder .details ul li span{ width: auto; font-size: 12px; color: #2d2d2d; font-weight: normal;}
+.inner_strip_template .sec span.trip_types .text:hover+.carlistpopup_holder{ display: block;}
+.cabfare_sem{ background-color: #f1f1f1; width: 100%; float: left;}
+.sem_fare_title h2{ margin: 2% 0; color: #2d2d2d; font-size: 25px; font-weight: 400;}
+.inner_sem_cabfare{ display: inline-block; width: 100%; position: relative;}
+.inner_sem_cabfare ul li.sem_listing{ box-shadow: 0 2px 1px rgba(0, 0, 0, .075); background-color: #fff; padding: 10px 20px 5px; margin: 0 0 15px; display: inline-block; width: 100%;}
+.inner_sem_cabfare ul li.sem_listing .car_detail{ width: 38%; float: left;}
+.inner_sem_cabfare ul li.sem_listing .car_detail .text{ width: 100%; display: inline-block;}
+.inner_sem_cabfare ul li.sem_listing .car_detail .text b{ width: 100%; display: inline-block; color: #2d2d2d; font-size: 18px; font-weight: 500; margin: 0 0 5px;}
+.inner_sem_cabfare ul li.sem_listing .car_detail .text strong{ width: 100%; display: inline-block; color: #474747; font-size: 13px; font-weight: 400; margin: 0 0 15px;}
+.inner_sem_cabfare ul li.sem_listing .car_detail .mob_fare-img{ width: 100%; display: inline-block; height: 90px;}
+.inner_sem_cabfare ul li.sem_listing .car_detail .mob_fare-img img{ display: inline-block; margin: 0; max-height: 87px; width: 140px;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured{ width: 25%; float: left; margin: 0;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .feature{ width: 100%; display: inline-block; margin: 16px 0 0; font-weight: 400; font-size: 15px;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .feature .spr_deal{ background: url(../images/listing-icon5.png) left 0 no-repeat rgba(0, 0, 0, 0); padding: 0 0 5px 25px; color: #2d2d2d; font-size: 13px; font-weight: 400;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .feature .spr_deal strong{ color: #337ab7; text-decoration: underline; cursor: pointer; font-weight: 400;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .strm_d{ margin: 17px 0 0; width: 100%;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .strm_d ul li{ display: inline-block; padding: 25px 12px 0; font-size: 13px; font-weight: 400; color: #2d2d2d;}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .strm_d ul li.people{ background: url(../images/listing-icon1.png) center 0 no-repeat rgba(0, 0, 0, 0);}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .strm_d ul li.luggage{ background: url(../images/listing-icon2.png) center 0 no-repeat rgba(0, 0, 0, 0);}
+.inner_sem_cabfare ul li.sem_listing .car_txtfeatured .strm_d ul li.ac{ background: url(../images/listing-icon4.png) center 0 no-repeat rgba(0, 0, 0, 0);}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures{ float: right; position: relative; width: 30%; margin: 0;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area{ width: 100%; background-color: #fff; margin: 0; padding: 10px 5px 0; display: inline-block;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area .fst{ float: left; margin: 0; width: 100%;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area .strik{ color: #575757; text-decoration: line-through; font-size: 15px; font-weight: 400; display: inline-block; width: 100%; text-align: center; margin: 0;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area .amount_tag{ color: #000; font-size: 14px; font-weight: 400; text-align: center; margin: 5px 0 0; display: inline-block; width: 100%;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area .amount_tag strong{ font-size: 25px; font-weight: 700;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area .call_toact{ text-align: center; margin: 5px 0 0; display: inline-block; width: 100%;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .price_area .call_toact a.book-car{ background-color: #fc5630; border: medium none; border-radius: 0; color: #fff; display: inline-block; font-size: 19px; font-weight: 500; padding: 8px 40px; text-decoration: none; cursor: pointer;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .fare_breakup_popup{ width: 100%; display: inline-block; text-align: center;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .fare_breakup_popup .info_fredetls{ color: #2d2d2d; cursor: pointer; display: inline-block; font-size: 11px; font-weight: 500; line-height: 15px; margin: 0; text-decoration: underline; width: auto; position: relative;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .carlistpopup_holder::before{ border-color: rgba(101, 0, 0, 0) rgba(172, 115, 159, 0) #ccc; border-style: solid; border-width: 13px; content: ""; height: 0; position: absolute; left: 85px; top: -27px; width: 0;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .carlistpopup_holder::after{ border-color: transparent transparent #fbfbfb; border-style: solid; border-width: 12px; content: ""; height: 0; position: absolute; left: 86px; top: -24px; width: 0; z-index: 4;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .carlistpopup_holder{ display: none; left: -100px; position: absolute; top: 26px; width: 300px; z-index: 99; background-color: #fff; border: 1px solid #ccc; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); min-height: 150px;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .carlistpopup_holder:hover{ display: block;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .carlistpopup_holder .details{ float: left; padding: 10px 10px 2px; width: 100%;}
+.inner_sem_cabfare ul li.sem_listing .car_ratefeatures .fare_breakup_popup .info_fredetls:hover .carlistpopup_holder{ display: block;}
+.fare_tabs{ width: 100%; background: #fff; display: inline-block; text-align: center;}
+.fare_tabs .menu{ width: 100%; display: inline-block; vertical-align: top; margin: 0; list-style: none; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.fare_tabs .menu li{ width: auto; display: inline-block; padding: 0; margin: 0 -2px; cursor: pointer; position: relative; border-left: 1px solid #ccc;}
+.fare_tabs .menu li:last-child{ border-right: 1px solid #ccc;}
+.fare_tabs .menu li span{ font-size: 18px; left: 15px; position: absolute; top: 11px; display: none; color: #a1a1a1;}
+.fare_tabs .menu li.active span{ color: #ee981f;}
+.fare_tabs .menu li a{ padding: 12px 20px 16px; display: inline-block; font-size: 20px; font-weight: 700; color: #666; outline: medium none; text-decoration: none; margin: 0 0 -1px; width: auto; vertical-align: middle;}
+.fare_tabs .menu li.active a, .fare_tabs .menu li.active a:hover{ color: #FF9000;}
+.fare_tabs .menu li a:hover{ color: #333;}
+.fare_tabs .menu li.active:after{ width: 100%; background: #FF9000; position: absolute; left: 0; bottom: 0; height: 4px; content: '';}
+/* Fare toggle content css start here */
+.highlighted_content{ margin: 20px 0; float: left; width: 100%;}
+.highlighted_content>ul>li{ font-size: 16px; line-height: 20px; color: #484848;}
+.highlighted_content>ul>li>a{ padding: 7px 0; color: #333; display: inline-block; vertical-align: top; width: 100%; font-weight: 600; border-bottom: 1px solid #d5d5d6; text-decoration: none; cursor: pointer;}
+.highlighted_content>ul>li>a i{ float: right; transition: .3s; font-size: 25px; line-height: 20px;}
+.highlighted_content>ul>li a.move i{ transform: rotate(180deg);}
+.highlighted_content>ul>li ul{ padding: 5px 0 10px 10px; font-size: 15px; float: left; width: calc(100%); line-height: 20px; display: none;}
+.highlighted_content>ul>li ul li{ float: left; width: 33%; position: relative; color: #777; padding-right: 10px; padding-left: 12px;}
+.highlighted_content>ul>li ul li:after{ position: absolute; left: 0; top: 10px; width: 5px; height: 5px; content: ''; border-radius: 50%; background: #777;}
+.highlighted_content>ul>li ul.touristplace li{ width: 100%; margin: 0 0 10px; position: relative;}
+.highlighted_content>ul>li ul.touristplace li span{ display: inline;}
+.highlighted_content>ul>li ul.touristplace li .fst, .highlighted_content>ul>li ul.touristplace li .attractiontype{ font-weight: 600; color: #555;}
+.related_newblog ul li{ min-width: 100%; padding: 0; margin: 5px 0 10px;}
+.related_newblog li .related_content{ height: 80px; overflow: hidden;}
+.related_newblog li .related_content img{ display: none;}
+.related_newblog li .related_content p{ margin: 0;}
+.related_newblog li h3{ margin: 0; float: left; margin: 0 10px 0 0; font-size: 16px; line-height: 20px; color: #555; font-weight: 600;}
+.related_newblog li h3 a{ color: #555;}
+.related_newblog ul li .readmore{ text-decoration: underline; color: #FF9000; font-size: 15px;}
+/* Package section css start here */
+.packagenight_sec{ float: left; width: 100%; margin: 40px 0 0;}
+.packagenight_sec h2{ margin: 0 0 20px; margin: 0 0 30px; text-align: center;}
+.packagenight_sec .tabs{ display: flex; background: #f1f1f1; border: 1px solid #dadada; border-bottom: 0;}
+.packagenight_sec .tabs li{ flex: 1 0 0; border-right: 1px solid #dadada; font-size: 18px; line-height: 25px;}
+.packagenight_sec .tabs li.active a{ background: #fff;}
+.packagenight_sec .tabs li.active a:after{ position: absolute; top: -1px; left: 0; width: 100%; content: ''; height: 2px; background: #283949;}
+.packagenight_sec .tabs li:last-child{ border: none;}
+.packagenight_sec .tabs li a{ position: relative; display: block; padding: 15px 15px; text-decoration: none; color: #222; font-weight: 600; text-align: center;}
+.packagenight_sec .box{ display: none;}
+.packagenight_sec .tab_content{ border: 1px solid #dadada; border-bottom: 0; margin-top: -1px;}
+.packagenight_sec .box.active{ display: block;}
+.packagenight_sec .box .cabfare_tabcontent{ margin: 0;}
+.packagenight_sec .box .tab_itm{ display: block;}
+/* Cabenture banner css start here */
+.cabenture_addbanner{ float: left; width: 100%; margin: 20px 0 10px; text-align: center;}
+.cabenture_addbanner img{ display: inline-block;}
+.fare_tablechart{ float: left; width: 100%; padding: 25px 0;}
+.fare_header{ background: #fff; border: 1px solid #ddd; border-bottom: 0;}
+.fare_header li{ display: inline-block; font-size: 16px; vertical-align: top; width: 20%; padding: 8px 10px; font-weight: 600;}
+.chartdetail_content{ background: #fff; border: 1px solid #ddd;}
+.chartdetail_content .row{ margin: 0; border-bottom: 1px solid #ddd; padding: 5px 0;}
+.chartdetail_content .row:last-child{ border: 0;}
+.chartdetail_content .tabledata > div{ padding: 0 10px; font-size: 16px; display: inline-block; vertical-align: middle; width: 20%; color: #757575;}
+.chartdetail_content .tabledata > div.from{ background: url('../images/arrowright.png') no-repeat 80% center; background-size: 28px; padding-right: 75px;}
+.chartdetail_content .book button{ background: #ff9305; color: #fff; border: 0; font-size: 14px; padding: 5px 5px 5px 10px; margin: 5px 0; display: inline-block; font-weight: 600; font-family: 'Muli'; position: relative;}
+.chartdetail_content .book button:after{ position: absolute; right: -10px; top: 0; border-left: 10px solid #ff9305; border-top: 15px solid rgba(0,0,0,0); border-bottom: 15px solid rgba(0,0,0,0); content: '';}
+.chartdetail_content .price .fare_detail{ font-weight: 600; background: url(../images/plus-minus.jpg) no-repeat right top; color: #098cd9; line-height: 20px; font-size: 12px; padding: 0 20px 0 0; cursor: pointer;}
+.fare_header li.book, .chartdetail_content .tabledata .book{ width: 110px;}
+.fare_header li.distnc, .chartdetail_content .tabledata .distnc{ width: 110px;}
+.fare_header li.price, .chartdetail_content .tabledata .price{ width: 200px;}
+.fare_header li.cabtyp, .chartdetail_content .tabledata .cabtyp,.fare_header li.triptyp, .chartdetail_content .tabledata .triptyp{ width: 120px;}
+.chartdetail_content .tabledata .price{ color: #555; font-size: 20px;}
+.chartdetail_content .tabledata .price small{ display: inline-block; min-width: 75px; font-size: 100%; text-align: center; vertical-align: middle;}
+.chartdetail_content .cabtyp .cab_details{ position: relative; display: inline-block; cursor: pointer;}
+.chartdetail_content .cabtyp .cab_details i{ color: #098cd9;}
+.chartdetail_content .cabtyp ul{ position: absolute; left: 50%; top: 30px; border: 1px solid #ccc; background: #fff; z-index: 1; display: none; width: 130px; margin-left: -65px}
+.chartdetail_content .cabtyp ul:after{ position: absolute; border-bottom: 10px solid #fff; border-left: 10px solid rgba(0,0,0,0); content: ''; border-right: 10px solid rgba(0,0,0,0); left: 50%; top: -10px; margin-left: -10px;}
+.chartdetail_content .cabtyp ul:before{ position: absolute; border-bottom: 10px solid #ccc; border-left: 10px solid rgba(0,0,0,0); content: ''; border-right: 10px solid rgba(0,0,0,0); left: 50%; top: -11px; margin-left: -10px;}
+.chartdetail_content .cabtyp ul.feature li{ font-size: 12px; line-height: 20px; padding: 2px 10px;}
+.chartdetail_content .cabtyp ul.feature li:hover{ background: #f1f1f1;}
+.chartdetail_content .cabtyp ul.feature li i{ width: 20px; color: #333;}
+.chartdetail_content .price{ font-weight: 700;}
+.chartdetail_content .price .fare_detail.reverse{ background-position: right -21px;}
+.chartdetail_content .row > div.cabfare_tabcontent{ margin: 10px 0 -10px; width: 100%; display: none;}
+.chartdetail_content .cabfare_tabcontent .inner_strip_template{ border-top: 1px solid #ddd !important; border: 0;}
+.chartdetail_content .cabfare_tabcontent .inner_strip_template .carlistpopup_holder{ display: block; margin: -10px -15px; border: none;}
+ul.price_area li a:hover+.carlistpopup_holder{ display: block;}
+ul.price_area .carlistpopup_holder:hover{ display: block;}
+ul.price_area li i:hover+.carlistpopup_holder{ display: block;}
+ul.price_area .carlistpopup_holder{ display: none; right: 0; position: absolute; top: 41px; width: 300px; z-index: 99; background-color: #fff; border: 1px solid #ccc; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); min-height: 150px;}
+ul.price_area .carlistpopup_holder:hover{ display: block;}
+.carlistpopup_holder #details ul .head{ margin: 0; font-size: 12px; text-align: left; color: #ff6e0d; padding: 5px 0; border-bottom: 1px solid #dedede; font-size: 14px; width: 100%; float: left;}
+.carlistpopup_holder #details ul li{ color: #575757; font-weight: 300; font-size: 13px; line-height: 20px; float: left; display: inline-block; width: 100%; margin: 0;}
+.carlistpopup_holder #details ul li.dbl_label .lbl span{ font-size: 10px; font-weight: 400;}
+.carlistpopup_holder #details ul li.base_fare span{ font-size: 14px; color: #2d2d2d;}
+.carlistpopup_holder #details ul li span{ color: #575757 !important;}
+.carlistpopup_holder #details ul .last li span{ font-weight: 300;}
+.carlistpopup_holder #details ul li .lbl{ width: calc(100% - 100px); float: left; font-weight: 400; text-align: left;}
+.carlistpopup_holder #details ul li .val{ width: 100px; float: right; text-align: right; font-weight: 400;}
+.carlistpopup_holder #details .last li{ padding: 0;}
+ul.price_area .carlistpopup_holder:before{ border-color: rgba(101, 0, 0, 0) rgba(172, 115, 159, 0) #ccc; border-style: solid; border-width: 13px; content: ""; height: 0; position: absolute; right: 46px; top: -27px; width: 0;}
+ul.price_area .carlistpopup_holder:after{ border-color: transparent transparent #fbfbfb; border-style: solid; border-width: 12px; content: ""; height: 0; position: absolute; right: 47px; top: -24px; width: 0; z-index: 4;}
+.price_area li .toolfare{ position: relative;}
+.price_area li .toolfare .carlistpopup_holder{ top: 33px; right: -53px;}
+ul.price_area .carlistpopup_holder .details{ float: left; padding: 10px 10px 2px; width: 100%;}
+ul.price_area .carlistpopup_holder .details ul{ width: 100%; display: inline-block;}
+ul.price_area .carlistpopup_holder .details ul li{ width: 100%; text-align: left; font-size: 14px; font-weight: 500;}
+ul.price_area .carlistpopup_holder .details ul li.amount{ border-top: 1px solid #ccc; padding: 3px 0 0 !important;}
+ul.price_area .carlistpopup_holder .details ul li.amount span{ font-weight: 500;}
+ul.price_area .carlistpopup_holder ul li span{ width: auto !important; font-size: 12px !important;}
+.carlist-aside .car_benefits{ display: inline-block; width: 100%; box-shadow: 0 2px 1px rgba(0, 0, 0, .075); border: 1px solid #ddd; background: #fff;}
+.carlist-aside .car_benefits ul li i{ font-size: 16px; width: 25px; text-align: center;}
+.car_benefits{ padding: 0; margin: 0 0 20px; clear: both;}
+.car_benefits h3{ margin: 5px 15px; font-size: 18px; line-height: 25px; font-weight: 600; color: #FD8C29;}
+.car_benefits ul li{ display: block; vertical-align: top; font-size: 14px; margin: 0; line-height: 25px; color: #575757; padding: 5px 15px; border-top: 1px solid #ddd;}
+.car_benefits ul li i{ margin-right: 5px; font-size: 20px; vertical-align: middle; color: #555;}
+.car_benefits ul li a{ color: #575757; cursor: pointer;}
+.cabfare_tabcontent .tab_itm .taxi_fare_heading_text h2{ text-align: center; font-size: 19px; display: none; font-weight: 400; padding: 12px 0; color: #3f3f3f; margin: 0;}
+.top_cityname_heading{ width: 100%; float: left; /*background-color: #e5e4e0; */
+ padding: 0 0 0;}
+.top_cityname_heading .inner h1{ color: #333; font-size: 30px; line-height: 40px; font-weight: 400; margin: 20px 0; padding: 0; text-align: center;}
+.editable_popup{ width: 350px; box-shadow: 0 5px 10px rgba(0, 0, 0, .2); display: none; position: absolute; top: 0; left: 0; z-index: 999;}
+.editable_popup .inner{ width: 100%; position: relative;}
+.editable_popup .inner h3{ background-color: #159BC1; margin: 0; padding: 10px 10px; color: #fff; font-size: 19px; text-align: center; font-weight: 500;}
+.editable_popup .inner .close{ position: absolute; top: -7px; right: -6px; width: auto; opacity: 1; background: #fff; border-radius: 50%;}
+.editable_popup .inner .close i{ color: #2d2d2d; font-size: 22px;}
+.editable_popup .elements{ padding: 10px 15px; width: 100%; float: left; background-color: #fff;}
+.editable_popup .elements .form-group{ width: 100%; float: left; margin: 0 0 10px 0; position: relative;}
+.editable_popup .elements .form-group .ferror{ left: 0; top: 64px; font-size: 11px; font-weight: 400; color: #ff0000; width: auto;}
+.editable_popup .elements .form-group .ferror.compare-msg{ min-width: 300px;}
+.editable_popup .elements .form-group.calltoaction{ text-align: center; margin: 9px 0 10px 0;}
+.editable_popup .elements .form-group.calltoaction button{ background-color: #ff8814; color: #fff; border: none; padding: 10px 40px; font-weight: 600; font-size: 17px;}
+.editable_popup .elements .form-group.segment{ width: 48%;}
+.editable_popup .elements .form-group.segment input{ cursor: pointer;}
+.editable_popup .elements .segment.frst{ margin: 0 10px 10px 0;}
+.editable_popup .elements .form-group label{ display: block; width: 100%; margin: 0 0 5px 0; color: #2d2d2d; font-size: 13px;}
+.editable_popup .elements .form-group select{ display: block; width: 100%; border-radius: 0; border: 1px solid #ccc; padding: 10px 20px 10px 10px; font-size: 14px; color: #2d2d2d; -webkit-appearance: none; -moz-appearance: none; appearance: none; background: #fff url("../images/tab_activearrow_blue.png") no-repeat scroll 96% center; background-size: 14px 12px; cursor: pointer;}
+.editable_popup .elements .form-group input{ display: block; width: 100%; border-radius: 0; padding: 10px 10px; border: 1px solid #ccc; font-size: 14px; color: #656565;}
+.editable_popup .popup_overlay{ background-color: #000000; bottom: 0; left: 0; opacity: 0.5; position: fixed; right: 0; top: 0; z-index: 1040;}
+.wrapper_benefits_strip .benefits_area{ width: 100%; float: left; display: inline-block; padding: 15px 0; background-color: #fff;}
+.wrapper_benefits_strip .benefits_area h2{ color: #333; font-size: 32px; line-height: 40px; font-weight: 400; margin: 0 0 25px; padding: 0; text-align: center;}
+.wrapper_benefits_strip .benefits_area .content{ width: 48%; float: left;}
+.wrapper_benefits_strip .benefits_area .content: nth-of-type(even){ float: right;}
+.wrapper_benefits_strip .benefits_area .content .left{ float: left;}
+.wrapper_benefits_strip .benefits_area .content .left img{}
+.wrapper_benefits_strip .benefits_area .content .right{ width: calc(100% - 85px); float: left; padding: 0 0 0 15px;}
+.wrapper_benefits_strip .benefits_area .content .right .title{ width: 100%; display: inline-block; color: #0f74ae; font-size: 18px; font-weight: 600;}
+.wrapper_benefits_strip .benefits_area .content .right .data{ width: 100%; display: inline-block; font-size: 16px; color: #2d2d2d; padding: 3px 0 0 0;}
+.wrapper_benefits_strip .benefits_area .content .right .data strong{ width: 100%; display: inline-block; font-size: 16px; font-weight: 700; margin: 5px 0 0; color: #2d2d2d;}
+.genric-fare .carlistpopup_holder{ display: none; margin: 10px 0 -10px; float: left; width: 100%; border-top: 1px solid #ddd;}
+.rate_strip-heading{ width: 100%; float: left;}
+.rate_strip-heading h3{ color: #2d2d2d; font-size: 40px; font-weight: 300; margin: 11px 0 11px; text-align: center; padding: 16px 10px;}
+.rate_strip-heading .taxi_home_deals_head{ color: #333; font-size: 30px; font-weight: 400; margin: 11px 0 11px; text-align: center; padding: 16px 10px;}
+.rate_strip-heading h3.city_fare{ font-size: 30px; line-height: 35px; font-weight: 300; padding: 0; margin: 0 0 25px;}
+.mobv_ratestrip{ margin: 0; width: 100%; display: inline-block;}
+.homepopular_destimg a{ width: 100%; display: inline-block; position: relative; overflow: hidden;}
+.homepopular_destimg a img{ display: inline-block; height: auto; transition: 1s; max-width: 100%;}
+.homepopular_destimg a > span{ color: #222; display: inline-block; font-size: 20px; font-weight: 600; position: relative; line-height: 20px; padding: 10px; width: 100%; text-align: right; border-bottom: 1px solid #ccc; border-radius: 0 0 3px 3px; transition: .5s; vertical-align: top; background: #f5f5f5;}
+.homepopular_destimg a > span strong{ float: left; font-size: 16px; font-weight: 500; max-width: calc(100% - 90px); overflow: hidden; padding: 0 0; line-height: 20px; text-overflow: ellipsis; white-space: nowrap;}
+.homepopular_destimg a:hover img{ transform: scale(1.1);}
+.homepopular_destimg a:hover{ box-shadow: 0 10px 20px 0px #d4cece;}
+/*================ why book section css start here ======================*/
+.parallax_whybook{ display: inline-block; vertical-align: top; position: relative; padding: 30px 0; width: 100%; float: left;}
+.parallax_whybook .container{ position: relative; z-index: 9;}
+.parallax_head{ width: 100%; display: inline-block; margin: 0 0 30px}
+.parallax_head h4{ width: 100%; margin: 0 0 25px; padding: 0; text-align: center; color: #484848; font-size: 30px; font-weight: 400; position: relative;}
+.parallax_head h4:after{ position: absolute; left: 50%; width: 100px; height: 3px; background: #ff9000; content: ''; margin: 0 0 0 -50px; bottom: -20px;}
+.inner-parallax_whybook{ display: inline-block; text-align: center; width: 100%}
+.inner-parallax_whybook .icon{ background-color: #fff; border-radius: 50%; border: 3px solid #FD8C29; display: inline-block; text-align: center; height: 100px; transition: .5s; width: 100px}
+.inner-parallax_whybook .descrition, .inner-parallax_whybook .descrition .top, .inner-parallax_whybook .icon span, .user-review_hld, .user-review_hld .inner, .user-review_wrp{ width: 100%; display: inline-block}
+.inner-parallax_whybook .icon span{ height: 100%;}
+.inner-parallax_whybook:hover .icon{ background: #FD8C29}
+.inner-parallax_whybook .icon span.price{ background: url(../images/price.png) no-repeat center center; background-size: 50px!important;}
+.inner-parallax_whybook:hover .icon span.price{ background: url(../images/price2.png) no-repeat center center;}
+.inner-parallax_whybook .icon span.cars{ background: url(../images/maintained_fleet.png) no-repeat 17px 13px; background-size: 60px!important;}
+.inner-parallax_whybook:hover .icon span.cars{ background: url(../images/maintained_fleet2.png) no-repeat center center;}
+.inner-parallax_whybook .icon span.agent{ background: url(../images/service.png) no-repeat center center; background-size: 60px!important;}
+.inner-parallax_whybook:hover .icon span.agent{ background: url(../images/service2.png) no-repeat center center;}
+.inner-parallax_whybook .descrition{ padding: 5% 0 0}
+.inner-parallax_whybook .descrition .top{ text-align: center; color: #222; font-size: 22px; font-weight: 600;}
+.inner-parallax_whybook .descrition .bottom{ color: #666; display: inline-block; font-size: 17px; font-weight: 500; padding: 0; text-align: center; width: 100%}
+#freeCancelModal{ opacity: 1 !important; z-index: 999999!important;}
+.flex_canclepopup{ display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;}
+#freeCancelModal button.close{ opacity: 1;}
+/*================ FAQ section css start here ======================*/
+.faq_sec{ margin: 30px 0 10px;}
+.faq_sec h3{ color: #484848; font-size: 30px; font-weight: 400; margin: 10px 0 30px; line-height: 40px; padding: 0; text-align: center; position: relative;}
+.faq_sec h3:after{ position: absolute; left: 50%; width: 100px; height: 3px; background: #ff9000; content: ''; margin: 0 0 0 -50px; bottom: -10px;}
+.faq_sec .pairbox{ padding: 5px 0; border-bottom: 1px solid #ddd; padding: 5px 0 15px;}
+.faq_sec .ques{ font-size: 16px; line-height: 20px; font-weight: 700; margin: 0; color: #333;}
+.faq_sec .ques span{ color: #afaeae; font-size: 40px; line-height: 40px; font-weight: 300; display: inline-block; vertical-align: middle; width: 65px;}
+.faq_sec .ques p{ display: inline-block; vertical-align: middle; max-width: calc(100% - 70px); margin: 0;}
+.faq_sec .ans{ color: #666; font-size: 15px; line-height: 20px; padding: 0 0 0 70px;}
+.faq_sec .ans .table-responsive{ margin-top: 10px;}
+
+
+/* city page css changes */
+.cabfare_wpr.no-tabb .cabfare_tab{ background: none;}
+.cabfare_wpr.no-tabb .cabfare_tabcontent{ margin: 0;}
+.multicolumn .mobv_ratestrip{ width:calc(50% - 8px); margin: 0 10px 0 0; display: inline-block; vertical-align: top;}
+.multicolumn .mobv_ratestrip:nth-child(even){ margin: 0;}
+.multicolumn .inner_strip_template .fst.mob{ float: left; width: calc(100% - 161px); padding: 0 0 5px 5px}
+.cabfare_tabcontent .multicolumn .inner_strip_template{ padding:15px 0 15px 15px; margin: 0 0 14px}
+.cabfare_tabcontent .multicolumn .inner_strip_template .feature{ float: left; width: calc(100% - 161px);}
+.multicolumn .inner_strip_template .fst .location_txt{ padding: 0; background: none; cursor: pointer;}
+.multicolumn .inner_strip_template .fst.mob .location_txt p{  color: #6f6c6c; font-size: 20px; font-weight: 700;}
+.cabfare_tabcontent .multicolumn .inner_strip_template .feature li{ padding: 0;}
+.cabfare_tabcontent .multicolumn.tab_itm ul.feature li small{ margin: 0 5px 0 0;}
+.cabfare_tabcontent .multicolumn .carlistpopup_holder .farebreak{ width: 100%;}
+.cabfare_tabcontent .multicolumn .carlistpopup_holder .exinbox{ width: 100%; border: none;}
+
+.cabfare_tabcontent .multicolumn .inner_strip_template .carlistpopup_holder{ margin: 0; width: 100%; position: absolute; top: 100%;
+    left: 0;  background: #fff; z-index: 1; box-shadow: 0 5px 10px #999;}
+
+/*================ Responsive css start here ======================*/
+@media screen and (min-width: 992px) and (max-width: 1100px){
+ .car_benefits ul li{ padding: 0 10px;}
+ .car_benefits.citypage ul li{ font-size: 14px;}
+ .cabfare_tabcontent .multicolumn .inner_strip_template .feature li{ width: 48%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area{ width: 145px;}
+ .cabfare_tabcontent .tab_itm ul li.ord span strong{ font-size: 15px; line-height: 20px; width: auto; ; margin: 5px 5px 0; text-align: center; display: block;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature{ width: calc(65% - 145px);}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area li{ margin: 2px 0;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature li{ margin: 0; font-size: 13px; padding: 5px 0; width: 46%}
+ .cabfare_tabcontent .tab_itm ul li.ord .carinfo img{ display: block; margin: 0 auto;}
+ .cabfare_tabcontent .tab_itm>ul>li.ord:after{ height: 131px;}
+ .genric-fare.likegenric .inner_strip_template .feature.four{ padding: 0 0 0 3%;}
+ .genric-fare.likegenric .inner_strip_template .feature.four li{ width: 48%;}
+ .genric-fare .inner_strip_template .feature.four li{ width: 48%; padding: 2px 0;}
+ .genric-fare.likegenric .inner_strip_template .feature{ width: calc(70% - 145px);}
+ .inner_strip_template .sec div{ margin: 0;}
+ .cabfare_tabcontent .inner_strip_template .carinfo{ width: 100px;}
+ .cabfare_tabcontent .inner_strip_template .carinfo strong{ display: block; margin: 5px 0 0;}
+ .cabfare_tabcontent .inner_strip_template .feature{ width: calc(65% - 145px); padding: 0 0 0 1%;}
+ .cabfare_tabcontent .inner_strip_template .feature li{ padding: 2px 0; font-size: 13px; white-space: nowrap;}
+ .cabfare_tabcontent .tab_itm ul.feature li small{ margin: 0;}
+ .inner_strip_template .sec span{ margin: 2px 0;}
+ .inner_strip_template .sec span.rates{ font-size: 22px;}
+ .cabfare_tabcontent .airport .inner_strip_template:after{ height: 83px;}
+ .inner_strip_template .fst.mob .location_txt p{ font-size: 16px; line-height: 21px;}
+ .genric-fare .inner_strip_template .fst.mob.graypattern p{ font-size: 16px;}
+ .genric-fare .inner_strip_template .feature, .genric-fare .inner_strip_template .location_txt, .genric-fare .inner_strip_template .car_img{ margin: 0;}
+ .genric-fare .inner_strip_template .location_txt{ font-size: 15px; line-height: 20px;}
+ .inner_strip_template .fst.graypattern .location_txt{ font-size: 16px; line-height: 22px;}
+ .genric-fare .inner_strip_template .feature li small{ margin: 0;}
+ .genric-fare.with-fareinfo .inner_strip_template .location_txt{ width: 150px; max-width: 150px; width: 150px;}
+ .genric-fare .inner_strip_template .location_txt span{ margin: 5px 0 0;}
+ .genric-fare .inner_strip_template .sec, .genric-fare.with-fareinfo .inner_strip_template .sec{ padding: 0;}
+ .genric-fare.with-fareinfo .inner_strip_template .feature{ width: calc(100% - 485px);}
+ .genric-fare .inner_strip_template .feature li{ font-size: 13px; margin: 0 1px;}
+ .genric-fare.likegenric .inner_strip_template .sec{ width: 145px;}
+ .genric-fare.likegenric .inner_strip_template .car_img{ font-size: 14px;}
+ .genric-fare.likegenric .inner_strip_template .feature li{ font-size: 12px; margin: 0; white-space: nowrap; padding: 3px 0; width: 32%;}
+ .genric-fare.likegenric .inner_strip_template .car_img img{ display: block; margin: 0 auto;}
+ .genric-fare .inner_strip_template .car_img span{ width: 100%; margin: 5px 0 0; text-align: center;}
+
+ .multicolumn .mobv_ratestrip{ width: 100%; margin: 0;}
+}
+@media screen and (min-width: 768px){
+  .cabfare_tabcontent .tab_itm ul li.ord .price_area button,
+  .inner_strip_template .sec button{ font-size: 0;}
+
+  .cabfare_tabcontent .tab_itm ul li.ord .price_area button i,
+  .inner_strip_template .sec button i{ font-size: 35px;}
+
+  .genric-fare .inner_strip_template .sec > a{ font-size: 0;}
+  .genric-fare .inner_strip_template .sec > a i{ font-size: 30px; vertical-align: middle;}
+}
+
+@media screen and (max-width: 480px){
+ .smlmob_thumbnail{ width: 100%;}
+ .fare_tabs .menu li a{ font-size: 16px; padding: 6px 5px 12px; width: 100%;}
+ .fare_tabs .menu li.active:after{ height: 2px; bottom: -1px;}
+ .fare_tabs .menu li span{ display: none;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature li{ border-radius: 15px; margin:0 0; font-size: 13px; line-height: 20px; width: auto; padding: 0px 5px 1px; border: 1px solid #ccc;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature li:hover{ background: #3e3b3b; color: #fff;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature.four{ padding:5px 10px 0;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature.four li{ width: auto;}
+}
+@media screen and (max-width: 568px){
+ .homepopular_destimg a span{ font-size: 15px; padding: 5px 10px 5px 20px;}
+ .homepopular_destimg a span strong{ font-size: 14px;}
+ .homepopular_destimg.upper{ margin: 0 0 10px;}
+}
+@media screen and (max-width: 567px){
+  .fare_tabs .menu li{ float: left; min-width: 50%; margin: 0 !important; border-left: 0;}
+  .fare_tabs .menu li:last-child{ border-right: 0;}
+  .fare_tabs .menu li a{ display: block; padding: 8px 5px 13px;}
+
+ .wrapper_benefits_strip .benefits_area .content .left{ background-color: transparent; padding: 0;}
+ .wrapper_benefits_strip .benefits_area .content{ width: 100%; margin: 0 0 15px 0;}
+ .wrapper_benefits_strip .benefits_area .content:last-child{ margin: 0;}
+}
+
+@media screen and (max-width: 767px){
+ ul.price_area .carlistpopup_holder::before{ right: 3px;}
+ ul.price_area .carlistpopup_holder::after{ right: 4px;}
+ ul.price_area .carlistpopup_holder{ top: 32px; /*left: -150px; */
+ }
+ .cabfare_tabcontent .tab_itm ul li .sale_msg{ right: -17px; top: -11px;}
+ .cabfare_tabcontent{ margin: 0 -15px; width: calc(100% + 30px);}
+ .cabfare_wpr.no-tabb .cabfare_tabcontent{ margin: 0 -15px}
+ .genric-fare .inner_strip_template{ width: 100%; display:inline-block; vertical-align: top; margin: 0 0 10px; padding:15px 10px;}
+ .genric-fare .carlistpopup_holder{ background: #fff; margin:0 -10px -10px; border-top: 0; padding-bottom: 5px; width: calc(100% + 20px);}
+ .packagenight_sec .box .cabfare_tabcontent{ width: 100%;}
+ .cabfare_tabcontent .tab_itm ul li{ margin: 0 0 10px;}
+ .cabfare_tabcontent .tab_itm ul li.head span.mob_fare-img{ display: none;}
+ .cabfare_tabcontent .tab_itm ul li.ord span.mob_fare-img{ display: none;}
+ .cabfare_tabcontent .tab_itm ul li.head span{ width: 25%;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area li{ display: flex; flex-direction: row-reverse;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area li.lst,
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area li span.fst{ display: none;}
+
+ .top_cityname_heading .inner h1, .wrapper_benefits_strip .benefits_area h3, .wrapper_benefits_strip .benefits_area h2{ font-size: 16px; line-height: 22px; margin:5px 0 10px;}
+ .highlighted_content{ margin: 10px 0;}
+ .highlighted_content ul li{ font-size: 14px; line-height: 20px; padding: 2px 0;}
+ .related_newblog li .related_content{ height: 80px;}
+ .related_newblog li h3{ line-height: 18px; font-size: 14px;}
+ .highlighted_content ul li a i{ font-size: 25px; line-height: 25px;}
+ .homepopular_destimg a span{ font-size: 15px; padding: 5px 10px 5px 20px;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature{ margin: 0; width: calc(100% - 140px); padding: 5px 0 0 10px;}
+ .airport .inner_strip_template .fst.mob ~ .feature{}
+ .cabfare_tabcontent .inner_strip_template .feature li{ width: 32%;}
+ .genric-fare.with-fareinfo .inner_strip_template .location_txt{ max-width: 100%; min-width: 100%; font-size: 15px;}
+ .inner_strip_template .sec span.trip_types{ display: inline-block;}
+ .genric-fare .inner_strip_template .car_img{ width: 90px; margin: 0;}
+ .genric-fare .inner_strip_template .sec{ width: 100%;}
+ .genric-fare .inner_strip_template .feature{ width: calc(100% - 130px);}
+ .genric-fare .inner_strip_template .feature.four li{ width: 24%;}
+ .genric-fare.likegenric .inner_strip_template .sec{ margin: 15px 0 0; width: 100%;}
+ .genric-fare.likegenric .inner_strip_template .sec div{ display: flex; flex-direction: row-reverse;}
+ .genric-fare.likegenric .inner_strip_template .sec div + div{ display: none;}
+ .genric-fare.with-fareinfo .inner_strip_template .car_img{ width: 190px; margin: 0 0 5px;}
+ .inner_strip_template .sec span.rates{ display:block; vertical-align: middle; margin: 0; font-size: 20px;}
+ .inner_strip_template .sec span.rates a{ background: #ff9305; color: #fff; padding: 5px 10px; width: 120px; font-weight: 600;}
+ .inner_strip_template .sec span.rates a i{ display: inline-block; font-size: 25px; font-weight: 700; margin-left: 10px;}
+ .inner_strip_template .sec div span.rates{ flex: 1 0 0; line-height: 35px; background: #FF9000; color: #fff; font-weight: 600;}
+ .inner_strip_template .sec div span.rates i{ display: inline-block; font-size: 25px; font-weight: 700; margin-left: 10px;}
+ .genric-fare.with-fareinfo .inner_strip_template .feature{ width: calc(100% - 340px);}
+ .genric-fare.with-fareinfo .inner_strip_template .sec{ width: 100%;}
+ .inner_strip_template .sec button{ margin: 0;}
+ .genric-fare.likegenric .inner_strip_template .fst.mob{ width: 40%; text-align: center;}
+ .genric-fare.likegenric .inner_strip_template .fst.mob .location_txt{ max-width: 100%; padding: 0; color: #888; justify-content: center; background: none;}
+ .genric-fare.likegenric .inner_strip_template .car_img{ width: 60%; font-size: 13px; display: inline-block;}
+ .cabfare_tabcontent .inner_strip_template{ padding: 0;}
+ .cabfare_tabcontent .tab_itm ul.feature li small{ margin: 0; background-size: 260px; width: 20px; height: 20px; display: none;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.seat{ background-position: -86px -5px;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.bag{ background-position: -44px -5px;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.ac{ background-position: -124px -4px;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.km{ background-position: -166px -8px;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.hour{ background-position: -205px -4px;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.car{ background-position: -3px -4px;}
+ .cabfare_tabcontent .tab_itm ul.feature li small.rupee{ background-position: -239px -3px;}
+ .cabfare_tabcontent .tab_itm>ul>li.ord{ display: block; padding:15px 10px; overflow: hidden;}
+ .cabfare_tabcontent .tab_itm ul li.ord .carinfo{ width: 100%; display: flex; flex-direction: column-reverse; padding: 0; text-align: center; align-items: center;}
+ .cabfare_tabcontent .tab_itm ul li.ord .mob_viewopen{ width: 54%; margin: 3px 0 0; vertical-align: top;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area{ width: 100%; padding: 15px 0 0;}
+ .cabfare_tabcontent .tab_itm ul li.ord .feature{ margin: 0; padding: 10px 0 0; width: 100%; float: left; text-align: center;}
+ .cabfare_tabcontent .tab_itm>ul>li.ord:after, .cabfare_tabcontent .inner_strip_template:after{ display: none;}
+ .cabfare_tabcontent .tab_itm ul li.ord .carinfo strong{ float: none; font-size: 18px; display:block; width: 100%; margin: 0 0 5px;}
+ .cabfare_tabcontent .tab_itm ul li.ord span strong small{ display: inline-block;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area button{ margin: 5px 0 0; padding: 4px 10px; font-size: 15px; line-height: 20px; width: auto; background: #ff9305; color: #fff; height: auto;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area button i{ display: none;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area li .amount_tag{ font-size: 20px; line-height: 40px; flex: 1 0 0; background: #FF9000; color: #fff; font-weight: 600;}
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area li .amount_tag i{ display: inline-block; font-size: 25px; font-weight: 700;
+    margin-left: 10px;}
+
+ .cabfare_tabcontent .tab_itm>ul>li .carlistpopup_holder{ margin: 0 -10px -10px; width: calc(100% + 20px); border-top: 0; padding-bottom: 5px;}
+ .cabfare_tabcontent .carlistpopup_holder .farebreak, .cabfare_tabcontent .carlistpopup_holder .exinbox{ width: 100%; padding-bottom: 0;}
+ .cabfare_tabcontent .carlistpopup_holder .exinbox{ border-left: 0;}
+ .cabfare_tabcontent .carlistpopup_holder .exinbox h4{ font-size: 14px; margin: 5px 0;}
+ .cabfare_tabcontent .carlistpopup_holder .exinbox ul li:after{ top: 4px;}
+
+ .carlistpopup_holder #details ul li .lbl,
+ .carlistpopup_holder #details ul li .val{ font-size: 12px; line-height: 15px;}
+
+ .inner_strip_template .sec.info{ width: 100%;}
+ .inner_strip_template .sec.info div{ display: flex; flex-direction: row-reverse;}
+ .inner_strip_template .sec.info div + div{ display: none;}
+ .inner_strip_template .sec button{ width: auto; background: #ff9305; color: #fff; height: auto; padding: 4px 10px; font-size: 15px; line-height: 20px;}
+ .inner_strip_template .sec button i{display: none;}
+
+ .cabfare_wpr{ padding: 0; overflow: hidden;}
+ .cabfare_tabcontent .tab_itm ul li.ord span ul.price_area li.lst a{ top: 8%;}
+ .faq_sec h3{ font-size: 18px; line-height: 23px; font-weight: 500; margin: 0 0 15px;}
+ .faq_sec .ques{ font-size: 14px; line-height: 20px; font-weight: 600;}
+ .faq_sec .ques span{ font-size: 20px; line-height: 20px; width: 40px; vertical-align: top;}
+ .faq_sec .ques p{ width: calc(100% - 45px);}
+ .faq_sec .ans{ font-size: 13px; padding: 0 0 0 45px;}
+ .inner-parallax_whybook .icon{ width: 60px; height: 60px;}
+ .inner-parallax_whybook .icon span.price, .inner-parallax_whybook:hover .icon span.price{ background-size: 30px auto !Important;}
+ .inner-parallax_whybook .icon span.cars, .inner-parallax_whybook:hover .icon span.cars{ background-position: 8px 4px !important; background-size: 40px !important;}
+ .inner-parallax_whybook .icon span.agent, .inner-parallax_whybook:hover .icon span.agent{ background-size: 40px !important;}
+ .parallax_whybook.city{ height: auto; padding: 25px 0;}
+ .parallax_head{ margin: 0 0 10px;}
+ .parallax_head h4{ font-size: 18px;}
+ inner-parallax_whybook .descrition{ padding: 5px 0 0;}
+ .inner-parallax_whybook .descrition .top{ font-size: 15px;}
+ .inner-parallax_whybook .descrition .bottom{ font-size: 14px; padding: 5px 0 0; line-height: 18px;}
+ .whybook_mob{ padding: 0 5px;}
+ .highlighted_content>ul>li ul li{ width: 100% !important;}
+ .genric-fare .inner_strip_template .feature.four li{ width: auto; white-space: nowrap; padding: 0 5px 1px;}
+
+ .cabfare_tabcontent .inner_strip_template .feature{ width: calc(100% - 140px); margin: 0; padding: 5px 0 5px 10px;}
+ .cabfare_tabcontent .inner_strip_template .feature li{ border: 1px solid #ccc; border-radius: 15px; width: auto; margin: 0; padding:1px 5px 2px; font-size: 13px; line-height: 20px;}
+ .cabfare_tabcontent .multicolumn .inner_strip_template .feature li{ padding: 1px 5px 2px;}
+ .mobv_ratestrip:first-child{ margin-top: 0;}
+ .cabfare_tabcontent .inner_strip_template{ padding:15px 10px; text-align: center; margin: 0 0 10px; display:inline-block; width: 100%;}
+ .cabfare_tabcontent .inner_strip_template .carinfo strong{ margin: 0;}
+ .cabfare_tabcontent .inner_strip_template .carlistpopup_holder{ margin: 0 -10px -10px; width: calc(100% + 20px); background: #fff; border-top: 0; padding-bottom: 5px; text-align: left;}
+ .inner_strip_template .fst.mob ~ .feature{ width: 100%; padding: 15px 0;}
+ .inner_strip_template .fst .location_txt{ padding: 0; background: none;}
+ .inner_strip_template .fst.mob .location_txt p{ font-size: 18px; color: #888; line-height: 20px; vertical-align: top; text-align: center;}
+ .genric-fare .inner_strip_template .fst.mob.graypattern p{ font-size: 18px; color: #888;}
+ .inner_strip_template .fst.graypattern .location_txt{ font-size: 18px;}
+ .rate_strip-heading .taxi_home_deals_head{ margin: 0 0 15px; padding: 0; font-size: 18px; line-height: 23px;}
+ .genric-fare .inner_strip_template .feature, .genric-fare .inner_strip_template .location_txt, .genric-fare .inner_strip_template .car_img{ margin: 0;}
+
+ .multicolumn .inner_strip_template .fst.mob{ width: 100%; padding: 0;}
+ .cabfare_tabcontent .multicolumn .inner_strip_template{ padding: 10px; margin: 0 0 10px;}
+ .cabfare_tabcontent .multicolumn .inner_strip_template .carlistpopup_holder{ margin: 10px 0 -10px -10px; width: calc(100% + 20px); position: static; box-shadow: none;}
+
+ .genric-fare .inner_strip_template .feature{ padding: 10px 15px; width: 100%; margin: 0; text-align: center;}
+ .genric-fare .inner_strip_template .feature li small{ margin: 0 2px 0 0; display: none;}
+ .genric-fare .inner_strip_template .location_txt{ width: 70%; float: left;}
+ .genric-fare .inner_strip_template .feature li{ font-size: 13px; line-height: 20px; margin: 0; width: auto; padding: 0 5px 1px; border: 1px solid #ccc;  border-radius: 10px; white-space: nowrap;}
+ .genric-fare .inner_strip_template .location_txt{ text-align: left; font-size: 18px; line-height: 20px; color: #888; margin: 0; display: flex; width: 100%; align-items: center; flex-direction: column;}
+ .genric-fare.likegenric .inner_strip_template .car_img{ padding: 0 10px;}
+ .genric-fare .inner_strip_template .car_img{ width: 100%; margin: 10px 0;}
+ .genric-fare .inner_strip_template .sec > a{ margin: 0; width: auto; background: #ff9305; color: #fff; padding: 5px 10px; font-size: 15px; line-height: 20px; margin: 0; display: none;}
+ .genric-fare .inner_strip_template .sec > a i{ display: none;}
+ .genric-fare .inner_strip_template .location_txt span{ display: inline-block; font-size: 13px; line-height: 15px; margin-top: 5px;}
+ .genric-fare.likegenric .inner_strip_template .fst.mob{ width: 100%; padding: 0 0 10px;}
+ .genric-fare.likegenric .inner_strip_template .car_img{ padding: 0 10px; margin: 0; width: 100%; display: block;}
+ .genric-fare.likegenric .inner_strip_template .feature{ margin: 0; padding: 0 15px; text-align: center;}
+ .genric-fare.with-fareinfo .inner_strip_template{ padding: 10px; margin: 5px 0;}
+ .mobv_ratestrip, .with-fareinfo.genric-fare .mobv_ratestrip{ padding: 0; background: #f1f1f1;}
+ .genric-fare.oneway .mobv_ratestrip{ padding: 0 15px;}
+ .genric-fare.with-fareinfo .inner_strip_template .feature{ width: 100%;}
+ .inner_strip_template .sec span.trip_types, .cabfare_tabcontent .tab_itm ul li.ord .price_area .showfare{ margin: 0; font-size: 15px; padding: 0; flex: 1 0 0; font-weight: 600; background-position:133px -86px; line-height: 37px; text-decoration: underline; color:#747474;}
+ .inner_strip_template .sec span.trip_types.reverse,
+ .cabfare_tabcontent .tab_itm ul li.ord .price_area .showfare.reverse{ background-position: 133px -111px;}
+ .genric-fare.with-fareinfo .inner_strip_template .car_img{ width: 100%; margin: 0 0 15px; font-size: 14px; line-height: 20px;}
+ .cabfare_tabcontent .carlistpopup_holder .farebreak h4{ font-size: 15px; padding: 5px 15px 10px;}
+ .inner_strip_template .fst.mob{ width: 100%; justify-content: center; padding: 0;}
+ .wrap_strip_template{ padding: 10px 0 0;}
+ .wrap_strip_template .container{ padding: 0; overflow: hidden;}
+ .car_benefits.citypage{ margin: 10px 0 0;}
+ .car_benefits.citypage ul li{ display: block; text-align: left; margin: 2px 0; padding: 0; font-size: 14px;}
+ .car_benefits ul li i{ width: 30px; text-align: center; font-size: 18px;}
+
+ .packagenight_sec{ margin: 15px 0 0;}
+ .packagenight_sec .container{ padding: 0;}
+ .packagenight_sec h2{ font-size: 16px; line-height: 20px; margin: 0 0 20px;}
+ .packagenight_sec .tabs li{ font-size: 13px; line-height: 20px;}
+ .packagenight_sec .tabs li a{ padding:10px 5px;}
+ .packagenight_sec .tab_content{ padding-top: 10px; border: none;}
+ .highlighted_content > ul > li a{ padding: 2px 0;}
+ .wrapper_benefits_strip .benefits_area .content .right .title{ font-size: 16px}
+ .wrapper_benefits_strip .benefits_area .content .right .data, .wrapper_benefits_strip .benefits_area .content .right .data strong{ font-size: 14px;}
+ .wrapper_benefits_strip .benefits_area .content .left img{ width: 60px;}
+ .wrapper_benefits_strip .benefits_area .content .right{ width: calc(100% - 65px);}
+
+ .multicolumn .mobv_ratestrip{ width: 100%; margin: 0;}
+}
+
+@media screen and (min-width: 567px) and (max-width: 767px){
+  .fare_tabs .menu li a{ font-size: 16px;}
+  .inner_strip_template .sec span.trip_types,
+  .cabfare_tabcontent .tab_itm ul li.ord .price_area .showfare{ flex: 2 0 0; background-position: 260px -86px;}
+  .cabfare_tabcontent .tab_itm ul li.ord .price_area .showfare.reverse,
+  .inner_strip_template .sec span.trip_types.reverse{ background-position: 260px -111px;}
+  .cabfare_tabcontent .tab_itm ul li.ord .carinfo strong{ margin: 0 0 0 15px; text-align: left; font-size: 16px;}
+  .cabfare_tabcontent .tab_itm ul li.ord .carinfo{ width: 55%; float: left; flex-direction: row;}
+  .cabfare_tabcontent .tab_itm ul li.ord .feature{ width: 45%; float: none; display: table-cell; margin: 0; padding: 10px 0; text-align: left; height: 65px;}
+  .cabfare_tabcontent .tab_itm ul li.ord .feature li{ width: auto; border: 1px solid #ccc; border-radius: 15px; padding: 1px 7px; margin:3px 0; font-size: 13px;}
+  .cabfare_tabcontent .tab_itm ul li.ord .feature.four{ padding: 0;}
+  .cabfare_tabcontent .tab_itm ul li.ord .feature.four li{ width: auto;}
+  .cabfare_tabcontent .tab_itm ul li.ord .price_area{ width: 100%; margin: 0; padding: 0;}
+
+  .inner_strip_template .sec div{ display: block;}
+  .inner_strip_template .fst.mob{ float: left; width: auto; padding: 0;}
+  .genric-fare.likegenric .inner_strip_template .feature.four{ padding: 0 15px 0 0 ;}
+  .inner_strip_template .fst.mob ~ .feature{ float: right; width: auto; padding: 0 0 0 10px;}
+  .inner_strip_template .sec.info{ margin: 15px 0 0;}
+
+  .genric-fare.likegenric .inner_strip_template .fst.mob .location_txt{ align-items: flex-start;}
+  .genric-fare.likegenric .inner_strip_template .fst.mob{ max-width: 45%;}
+  .genric-fare .inner_strip_template .feature{ width: 75%; padding: 10px 0 0;}
+  .genric-fare .inner_strip_template .location_txt{ width: 75%;}
+  .genric-fare .inner_strip_template .sec{ width: auto; float: right; margin: 0 15px 0;}
+
+  .multicolumn .inner_strip_template .fst.mob{ width: 48%; justify-content: flex-start;}
+  .multicolumn .inner_strip_template .fst.mob .location_txt p{ font-size: 17px;}
+}

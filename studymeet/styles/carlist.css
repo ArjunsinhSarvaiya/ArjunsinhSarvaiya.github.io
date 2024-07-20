@@ -1,0 +1,358 @@
+.listing_rhthld{ background-color: #fff; display: inline-block; vertical-align: top; width: 100%; padding: 20px 10px; border: 1px solid #ddd; margin: 0 0 15px; /*box-shadow: 0 2px 1px rgba(0, 0, 0, .075); */
+ position: relative;}
+.listing_rhthld .sale_msg{ position: absolute; right: -8px; top: -11px; z-index: 1;}
+.listing_rhthld .car_detail{ width: 35%; margin: 0; display: inline-block; vertical-align: middle;}
+.listing_rhthld .car_detail .frst{ display: flex; align-items: center;}
+.listing_rhthld .car_detail .frst .strm_b{ color: #474747; font-size: 16px; line-height: 20px; font-weight: 400; margin: 0 0 5px; flex: 2;}
+.listing_rhthld .car_detail .frst .strm_c{ margin-right: 10px;}
+.listing_rhthld .car_detail .frst .strm_c img{ display: inline-block; margin: 0; max-height: 87px; width: 140px;}
+
+.prefered_car{ position: absolute; left: 0; top: -1px; width: 70px; height: 22px; background: url(../images/prefered.png) no-repeat 0 0;}
+
+.listing_rhthld .car_txtfeatured{ width: calc(65% - 210px); display: inline-block; vertical-align: middle; padding: 0; margin: 0; text-align: center;}
+.listing_rhthld .car_txtfeatured span{ display: inline-block; color: #9e9a9a; font-size: 13px; margin: 0 5px;}
+.listing_rhthld .car_txtfeatured span img{ display: block; margin: 0 auto 5px;}
+
+.listing_rhthld .car_ratefeatures{ position: relative; display: inline-block; vertical-align: middle; margin: 0;}
+.listing_rhthld .car_ratefeatures .carlistpopup_holder{ width: 100%; display: inline-block; text-align: center;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer{ text-align: center;}
+.listing_rhthld .car_ratefeatures .car_rates li{ display: inline-block; vertical-align: middle;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .call_toact,
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml{ text-align: center; margin: 0; display: inline-block;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .call_toact{ margin: 0;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml{ color: #000; font-size: 25px; line-height: 30px; display: block; font-weight: 400; cursor: pointer;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .strik{ color: #575757; text-decoration: line-through; font-size: 15px; font-weight: 400; display: inline-block; width: 100%; text-align: center; margin: 0;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml strong{ font-size: 22px; font-weight: 700;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml strong i{ display: none;}
+.listing_rhthld .car_ratefeatures .car_rates .trip_transfer .call_toact button[type=submit]{ background-color: #FD8C29; border: medium none; border-radius: 0; color: #fff; display: inline-block; font-size: 18px; font-weight: 600; padding: 3px 15px 5px; font-family: 'Muli';}
+.listing_rhthld .car_ratefeatures .info_fredetls{ cursor: pointer; display: inline-block; font-size: 15px; line-height: 15px; margin: 0 0; width: auto;}
+.listing_rhthld .car_ratefeatures .info_fredetls > .fa-share-alt{ color: #727272; font-size: 18px; margin-right: 15px;}
+.listing_rhthld .car_ratefeatures .info_fredetls span{ color: #3d9cd8; line-height: 20px; font-size: 14px; font-weight: 400; padding-right: 20px; background: url(../images/fares/fair_detail.png?v0.2) no-repeat right 2px;}
+.listing_rhthld .car_ratefeatures .info_fredetls span.reverse{ background-position: right -16px;}
+.listing_rhthld .car_ratefeatures .info_fredetls span:focus{ outline: none; border: none;}
+
+.listing_rhthld .car_ratefeatures .details{ background-color: #fff; border: 1px solid #ccc; box-shadow: 0 5px 10px rgba(0, 0, 0, .2); display: none; left: -200px; min-height: 150px; position: absolute; top: 143px; width: 380px; z-index: 999; text-align: left; cursor: default;}
+.listing_rhthld .car_ratefeatures .details ul{ display: inline-block; width: 100%; padding: 10px; list-style: none}
+.listing_rhthld .car_ratefeatures .details ul .inner_list{ padding: 0;}
+.listing_rhthld .car_ratefeatures .details ul .last{ padding: 0;}
+.listing_rhthld .car_ratefeatures .details ul .last li .seprate{ width: 100%; display: inline-block; line-height: 10px; font-size: 11px;}
+.listing_rhthld .car_ratefeatures .details ul .inner_list li{ display: inline-block; width: 100%; line-height: 25px;}
+.listing_rhthld .car_ratefeatures .details ul li .lbl{ width: 70%; float: left; font-weight: 400;}
+.listing_rhthld .car_ratefeatures .details ul li .lbl.full{ width: 100%;}
+.listing_rhthld .car_ratefeatures .details ul li .val{ width: 30%; float: right; text-align: right; font-weight: 400;}
+.listing_rhthld .car_ratefeatures .details ul li{ color: #575757; font-weight: 300; line-height: 27px; font-size: 12px; border-bottom: 1px solid #f5f5f5; margin: 0; width: 100%; float: left;}
+.listing_rhthld .car_ratefeatures .details ul li.base_fare{ width: 100%; display: inline-block; padding: 2px 0; font-size: 14px; color: #2d2d2d; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;}
+.listing_rhthld .car_ratefeatures .details ul .head{ margin: 0; padding: 10px 0 6px; border-bottom: 1px solid #dedede; font-size: 14px; width: 100%; float: left;}
+.listing_rhthld .car_ratefeatures .details ul .head:first-child{ padding: 3px 0 7px 0;}
+.listing_rhthld .car_ratefeatures .details ul li>span{ font-weight: 500}
+.listing_rhthld .car_ratefeatures .details .grnd_total{ color: #2d2d2d; font-weight: 500; padding: 0; display: inline-block; width: 100%; font-size: 13px; margin: 5px 0 0;}
+
+.fareslide{ margin: 10px -10px -20px; display: none;}
+.fareslide .farebox{ display: flex;}
+.fareslide .farebox .basefare_box{ flex: 1;}
+.fareslide .farebox .inex-box{ flex: 1; border-left: 1px solid #ddd;}
+.fareslide .farebox h4.head{ color: #fd8b2a; font-size: 14px; line-height: 20px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; line-height: 30px; padding: 0 15px; font-weight: 700; margin: 0;}
+.fareslide .farebox ul li{ color: #485867; font-size: 13px; line-height: 20px; display: flex; justify-content: space-between;}
+.fareslide .farebox ul li .lbl{ max-width: calc(100%);}
+.fareslide .farebox .basefare_box ul{ margin: 0 15px;}
+.fareslide .farebox .basefare_box ul li{ border-bottom: 1px solid #ddd; padding: 5px 0;}
+.fareslide .farebox .basefare_box ul li.base_fare{ font-weight: 700; border-bottom: 0;}
+.fareslide .farebox .inex-box h4.head{ border-bottom: 0; padding: 5px 15px 0; line-height: 20px; color: #444;}
+.fareslide .farebox .inex-box h4.head ~ h4.head{ border-top: 0;}
+.fareslide .farebox .inex-box ul{ margin: 5px 15px;}
+.fareslide .farebox .inex-box ul li{ position: relative; padding: 0 0 2px 12px;}
+.fareslide .farebox .inex-box ul li:after{ position: absolute; left: 0; top: 8px; width: 6px; height: 6px; content: ''; border-radius: 50%; background: #999;}
+
+.carlist_bottomenquery{ width: 100%; float: left; background-color: #fff; margin: 5px 0 20px; border: 1px solid #ddd; box-shadow: 0 2px 1px rgba(0, 0, 0, .075);}
+.carlist_bottomenquery .inner{ padding: 0px 15px 15px; display: inline-block; width: 100%;}
+.carlist_bottomenquery h3{ margin: 0; padding: 15px; color: #FD8C29; font-size: 19px; font-weight: 600;}
+.carlist_bottomenquery .form-group{ width: 48%; float: left; margin: 0 0 20px 0; position: relative;}
+.carlist_bottomenquery .form-group:nth-child(even){ float: right}
+.carlist_bottomenquery .form-group input.ng-not-empty~.sendEnqPopError{ display: none}
+.carlist_bottomenquery .form-group.comment{ width: 100%; margin: 0 0 15px 0;}
+.carlist_bottomenquery .form-group.comment textarea{ border-radius: 0 !important; font-family: 'Muli'; position: relative;  height: 80px; background: #fff;}
+.carlist_bottomenquery .form-group input{ border-radius: 0 !important; padding: 5px 8px; height: 35px; background: #fff; display: inline-block; position: relative; box-shadow: none; font-family: 'Muli';}
+.carlist_bottomenquery .form-group label{ position: absolute; left: 15px; top: 10px; font-size: 14px; color: #aaa; line-height: 20px; transition: .3s;}
+.carlist_bottomenquery .form-group label.active{ top: -10px; left: 8px; padding: 0 5px; background: #fff; color: #ff8814; font-size: 12px; z-index: 10;}
+.carlist_bottomenquery .form-group.call_toaction{ width: 100%; margin: 0;}
+.carlist_bottomenquery .form-group.call_toaction button{ background-color: #FD8C29; color: #fff; border: none; font-size: 17px; font-weight: 600; border-radius: 0; font-family: 'Muli'; padding: 5px 20px;}
+
+.mobileenq{ display: none;}
+.sendEnqPopError{ position: absolute; top: 40px; left: 0;}
+.carlist_bottomenquery .sendEnqPopError{ top: 32px;}
+
+.carlist-aside .car_benefits{ display: inline-block; width: 100%; box-shadow: 0 2px 1px rgba(0, 0, 0, .075); border: 1px solid #ddd; background: #fff;}
+.carlist-aside .car_benefits ul li i{ font-size: 16px; width: 25px; text-align: center;}
+.car_benefits{ padding: 0; margin: 0 0 20px; clear: both;}
+.car_benefits h3{ margin: 5px 15px; font-size: 18px; line-height: 25px; font-weight: 600; color: #FD8C29;}
+.car_benefits ul li{ display: block; vertical-align: top; font-size: 14px; margin: 0; line-height: 25px; color: #575757; padding: 5px 15px; border-top: 1px solid #ddd;}
+.car_benefits ul li i{ margin-right: 5px; font-size: 20px; vertical-align: middle; color: #555;}
+.car_benefits ul li a{ color: #575757; cursor: pointer;}
+
+/*-------------------Animated loading bar ---------------------------*/
+.hmc-list{ background: #fff none repeat scroll 0 0; border: 1px solid #d8eaff; border-radius: 2px; box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1); margin-bottom: 20px; position: relative; width: 100%; display: grid;}
+.hmc-list-heading-section{ border-bottom: 1px solid #ededed; display: flex; align-items: center; padding: 10px 20px;}
+.hmc-list-heading-section .car_detail{ display: inline-block; width: 210px; vertical-align: top; text-align: center;}
+.hmc-list-heading-section .car_txtfeatured{ display: inline-block; vertical-align: middle; margin: 0; width: calc(100% - 365px); padding: 0 20px;}
+.hmc-list-heading-section .car_ratefeatures{ display: inline-block; vertical-align: middle; position: relative; width: 145px; text-align: center;}
+.hmc-list-heading-section .car_ratefeatures .last{ margin: 12px 0 0 0;}
+.hmc-list-heading-section .car_detail .loading_line_l{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; margin-top: 0; width: 50%; display: inline-block;}
+.hmc-list-heading-section .car_detail .loading_line_m{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; overflow: hidden; display: inline-block; position: relative; width: 90%;}
+.hmc-list-heading-section .car_detail .loading_img_box{ background: rgba(0, 0, 0, 0) linear-gradient(269deg, rgba(207, 215, 224, 0.1), #eceff3) repeat scroll 0 0; display: inline-block; height: 80px; width: 60%; margin: 0 0 15px;}
+.hmc-list-heading-section .car_txtfeatured .loading_head_line{ float: left; width: 20%; padding: 0 10px;}
+.hmc-list-heading-section .car_txtfeatured .loading_line_l{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; margin-top: 0; width: 60%;}
+.hmc-list-heading-section .car_txtfeatured .loading_img_box{ background: rgba(0, 0, 0, 0) linear-gradient(269deg, rgba(207, 215, 224, 0.1), #eceff3) repeat scroll 0 0; display: block; height: 50px; width: 80%; margin: 0 auto 15px;}
+.hmc-list-heading-section .car_txtfeatured .loading_line_m{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; overflow: hidden; position: relative; width: 100%;}
+.hmc-list-heading-section .car_txtfeatured .loading_line_m.n{ margin: 30px 0 0 0;}
+.hmc-list-heading-section .car_ratefeatures .loading_line_l{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; margin-top: 0; width: 100%;}
+.hmc-list-heading-section .car_ratefeatures .loading_line_m{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; overflow: hidden; position: relative; width: 50%; display: block; margin: 0 auto 10px;}
+.hmc-list-heading-section .car_ratefeatures .loading_img_box{ background: rgba(0, 0, 0, 0) linear-gradient(269deg, rgba(207, 215, 224, 0.1), #eceff3) repeat scroll 0 0; display: inline-block; float: left; height: 30px; width: 100%;}
+.hmc-list-body-section{ border-bottom: 1px solid #ededed; color: #565656; font-size: 12px; padding: 11px 19px; position: relative;}
+.loading_img_box, .loading_line_l{ overflow: hidden; position: relative;}
+.loading_head_line{ float: left; margin: 0; width: 100%;}
+.append_bottom15{ margin-bottom: 15px;}
+.loading_line_l{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; width: 398px;}
+.loading_img_box, .loading_line_l{ overflow: hidden; position: relative;}
+.loading_line_m .inner_loader{ animation: 0.8s linear 0s normal none infinite running loadingMover1; background: rgba(0, 0, 0, 0) linear-gradient(to right, #f3f4f7 10%, #e4e4e4 52%, #f3f4f7 100%) repeat scroll 0 0; position: absolute; width: 50%;}
+.loading_line_l .inner_loader, .loading_line_m .inner_loader, .loading_line_s .inner_loader{ height: 6px;}
+.hmc-list-body-section .dept-options{ border-right: 1px solid #ededed; padding-right: 18px;}
+.pull-left{ float: left;}
+.hmc-list-body-section .return-options{ border-left: 1px solid #ededed; margin: 0 0 0 -1px; padding-left: 18px;}
+.loading_line_s{ background: #f6f7f9 none repeat scroll 0 0; height: 6px; overflow: hidden; position: relative; width: 109px;}
+.append_bottom20{ margin-bottom: 20px;}
+.loading_line_s .inner_loader{ animation: 0.8s linear 0s normal none infinite running loadingMover1; background: rgba(0, 0, 0, 0) linear-gradient(to right, #f3f4f7 10%, #e4e4e4 52%, #f3f4f7 100%) repeat scroll 0 0; position: absolute; width: 100%;}
+.loading_line_l .inner_loader{ animation: 0.8s linear 0s normal none infinite running loadingMover1; background: rgba(0, 0, 0, 0) linear-gradient(to right, #f3f4f7 10%, #e4e4e4 52%, #f3f4f7 100%) repeat scroll 0 0; position: absolute; width: 50%;}
+.loading_line_l .inner_loader, .loading_line_m .inner_loader{ -webkit-animation: loadingMover1 .8s infinite linear; -moz-animation: loadingMover1 .8s infinite linear; -o-animation: loadingMover1 .8s infinite linear}
+@-webkit-keyframes loadingMover1{ 0%{ left: 0 }
+ 100%{ left: 100% }
+}
+@-moz-keyframes loadingMover1{ 0%{ left: 0 }
+ 100%{ left: 100% }
+}
+@-o-keyframes loadingMover1{ 0%{ left: 0 }
+ 100%{ left: 100% }
+}
+@keyframes loadingMover1{ 0%{ left: 0 }
+ 100%{ left: 100% }
+}
+@-webkit-keyframes page_loader__mover{ 0%{ width: 100px }
+ 100%{ width: 100% }
+}
+@-moz-keyframes page_loader__mover{ 0%{ width: 100px }
+ 100%{ width: 100% }
+}
+@-o-keyframes page_loader__mover{ 0%{ width: 100px }
+ 100%{ width: 100% }
+}
+@keyframes page_loader__mover{ 0%{ width: 100px }
+ 100%{ width: 100% }
+}
+.carlist_enq{ padding: 15px 0;}
+.carlist_enq .btn{ background-color: transparent; border: medium none; padding: 0; position: absolute; right: -18px; top: -18px;}
+.carlist_enq .thanku_msg{ display: inline-block; margin: 20px 0 5px; text-align: center; width: 100%;}
+.carlist_enq .last_msg{ display: inline-block; width: 100%; text-align: center; font-size: 14px; font-weight: 500;}
+.carlist_enq .thanku_msg img{ display: inline-block; max-width: 100%; width: 70%;}
+
+.modifybar{ padding: 5px 0; background: #fff; box-shadow: 0 0 5px #ccc;}
+.modifybar .cityname{ display: block; padding: 5px 0 5px 20px; position: relative;}
+.modifybar .cityname.both:after{ position: absolute; content: ''; left: 4px; top: 23px; width: 1px; height: calc(100% - 14px); border-left: 1px dashed #333;}
+.modify-serch_info .locations{ float: left; max-width: calc(100% - 205px); margin-right: 30px;}
+.modify-serch_info .pickdrop-date{ float: left;}
+.modifybar .cityname:before{ position: absolute; content: ''; left: 0; top: 11px; width: 10px; height: 10px; border-radius: 50%; background: #419E2B;}
+.modifybar .cityname ~ .cityname:before{ position: absolute; content: ''; left: 0; top: 11px; width: 10px; height: 10px; border-radius: 50%; background: #FC000F;}
+.modifybar .cityname:first-child span{ font-weight: 700;}
+.modifybar .cityname, .modifybar .date{ display: block; vertical-align: top; color: #333; font-size: 14px; line-height: 20px;}
+.modifybar .cityname .tooltip{ opacity: 1!important; top: 30px!important; white-space: normal; max-width: 300px; z-index: 999;}
+.modifybar .date{ padding: 5px 0;}
+.modifybar .date:first-child{ font-weight: 700;}
+.modifybar .date small{ font-size: 14px; margin-right: 10px;}
+.modifybar .cityname i, .modifybar .date i{ font-size: 16px; margin-right: 3px;}
+.modifyedit_mode{ padding: 14px 0; display: none; background: #666; left: 0; top: 0; position: absolute; width: 100%; z-index: 9999;}
+.modifyedit_mode .banner_innerwrp{ min-height: 10px;}
+
+.whtext{ text-decoration: none}
+.modify-srchpopup{ width: 100%; float: left; position: relative;}
+.modify-srchpopup .banner_imgwraper{ margin: 0;}
+.modify-srchpopup .modify_close{ position: absolute; top: -2px; right: 13px; cursor: pointer; z-index: 99;}
+.modify-srchpopup .modify_close i{ font-size: 20px; color: #fff;}
+.whtext .listing_txt{ margin: 0; float: left; width: calc(100% - 130px);}
+.whtext #select1{ float: right; width: 50%; text-align: right; margin: 52px 0 0}
+.whtext #select1 .option{ position: absolute; left: 390px; top: 100%; float: right; width: 30%; min-width: 0!important}
+.carlistingresult_text{ font-size: 13px; text-align: left}
+
+.modify_search #frmPaxinfo{ display: inline-block; width: 100%}
+.modify_search #frmPaxinfo .sec_search-widget{ padding: 10px}
+.modify_search #frmPaxinfo .container{ width: 100%; padding: 0}
+.modify_search #frmPaxinfo .container .row, .modify_search #frmPaxinfo .container .row .col-sm-12{ padding: 0; margin: 0}
+.modify_search #frmPaxinfo .container .row .col-sm-12 .form-group{ width: 16.4%}
+.modify_search #frmPaxinfo .container .row .col-sm-12 .select_hld select{ height: 48px}
+.modify_search{ float: right; margin: 15px 0 0; text-align: center;}
+.modify_search.local{ margin: 2px 0 0;}
+.modify_search .more_search{ display: inline-block; background: #f1f1f1; border: 1px solid #ccc; color: #333; line-height: 24px; font-size: 14px; cursor: pointer; font-weight: 600; text-align: center; padding: 0 5px;}
+.fst_newcarlist-wrp{ background-color: #f1f1f1; width: 100%; padding: 20px 0 0; float: left;}
+.disclaimer-msg{ padding: 8px 12px; background: #fff; border-top: 1px solid #ddd;}
+.popError, .sendEnqPopError{ color: red; font-size: 11px; font-weight: 500;}
+.map_box iframe{ max-width: 100%; width: 100%;}
+
+body.ovrly{ position: fixed; width: 100%;}
+body.ovrly:after{ position: absolute; left: 0; top: 0; z-index: 99; height: 100%; width: 100%; content: ''; background: rgba(0,0,0,.2);}
+/*====== Modify search css start here ========*/
+.modify-srchpopup .sarch-bookingwdgt .form-group.departure_date_blur{ opacity: 0.5;}
+.modify-srchpopup .sarch-bookingwdgt .form-group.select_hld{ width: 16.1%;}
+.modify-srchpopup .sarch-bookingwdgt .form-group.input_hld{ width: 23.6%;}
+.modify-srchpopup .sarch-bookingwdgt .form-group .fa-times-circle{ top: 40px;}
+.modify-srchpopup .sarch-bookingwdgt .form-group.input_hld.local_active{ width: 47.8%;}
+.modify-srchpopup .sarch-bookingwdgt .view_local.local_active{ width: 22.4%;}
+.modify-srchpopup .sarch-bookingwdgt .form-group .interchange_icon{ right: -14px; top: 34px;}
+.main_container .add_newcontent{ min-height: 678px; width: 100%; float: left; display: inline-block;}
+.travelback{ background-color: #fff; width: 100%; position: relative; min-height: 40px; float: left;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget{ position: static; background-color: transparent; padding: 0; margin: 0;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group label{ color: #fff; line-height: 20px; margin: 0 0 5px; font-size: 15px;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group select{ border: 1px solid #cdcdcd; height: 44px;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group input[type="text"]{ border: 1px solid #cdcdcd; height: 44px;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group .ferror{ color: #fff; top: 68px;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group.caltact_hld{ margin: 25px 0 0;}
+.modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group.caltact_hld button{ height: 44px;}
+/*================ Responsive css start here ======================*/
+@media screen and (min-width: 992px) and (max-width: 2000px){ .listing_rhthld .car_txtfeatured{ text-align: left;}
+ .listing_rhthld .car_txtfeatured span{ display: inline-block; margin: 0; width: 29%; vertical-align: top; padding: 5px 0;}
+ .listing_rhthld .car_txtfeatured span img{ display: inline-block; width: 20px; margin: 0 5px 0 0;}
+ .listing_rhthld .car_detail .frst .strm_b{ font-size: 14px; line-height: 18px;}
+ .modify_bookingwidget .sarch-bookingwdgt .form-group.caltact_hld{ width: 11%;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){ .modify_bookingwidget .sarch-bookingwdgt .form-group{ width: 32%!important; min-width: 32%!important;}
+}
+@media (max-width: 568px){ .modifybar .modify-serch_info .cityname:first-child span+.tooltip{ left: 18px!important; z-index: 9; top: 25px!important;}
+ .modifybar .modify-serch_info .cityname:first-child span+.tooltip .tooltip-arrow{ left: 25px!important;}
+ .modifybar .modify-serch_info .cityname:first-child span+.tooltip .tooltip-inner{ width: 340px!important; white-space: normal;}
+ .modifybar .cityname~.cityname span+.tooltip{ left: 18px!important; z-index: 9; top: 25px!important;}
+ .modifybar .cityname~.cityname span+.tooltip .tooltip-inner{ width: 340px!important; white-space: normal;}
+ .modifybar .cityname~.cityname span+.tooltip .tooltip-arrow{ left: 70%!important;}
+ .modifybar .cityname span{ max-width: 100%;}
+ .modifybar .cityname i{ width: 20px; text-align: center; margin-right: 2px;}
+ .modifybar .date i{ font-size: 16px !Important; margin-right: 2px;}
+ .modifybar{ padding: 5px 0 10px;}
+ .modifybar .modify_search{ position: absolute; bottom: 5px; right: 0; padding: 0 10px;}
+ .modifybar .more_search{ font-size: 0; line-height: 10px;}
+ .modifybar .more_search i{ font-size: 20px;}
+ .carlist_enq .last_msg{ padding: 0 10px; font-size: 12px; font-weight: 500;}
+ .modify-srchpopup .sarch-bookingwdgt .form-group .interchange_icon{ right: 50%; top: 105%; margin-right: -15px}
+ .modify-srchpopup .sarch-bookingwdgt .form-group .interchange_icon.icn{ background-position: -2px -265px;}
+ .modify-srchpopup .sarch-bookingwdgt .form-group .interchange_icon .fa-circle{ color: #7a7a7a; font-size: 30px;}
+ .modify-srchpopup .sarch-bookingwdgt .form-group .interchange_icon .fa-inverse{ color: #fff; font-size: 13px; top: 5px!important;}
+}
+@media (min-width: 480px) and (max-width: 767px){
+ .listing_rhthld{ padding: 10px; margin: 0 0 10px; border: none; border-top: 1px solid #ddd; box-shadow: 2px 2px 3px #ddd;}
+ .listing_rhthld:last-child{ border-bottom: 1px solid #ddd;}
+ .listing_rhthld .car_detail{ width: 50%;}
+ .listing_rhthld .car_detail .frst .strm_c img{ width: 100px; max-height: 100%;}
+ .listing_rhthld .car_detail .frst .strm_b{ font-size: 15px;}
+ .listing_rhthld .car_txtfeatured{ max-width: 48%;}
+ .listing_rhthld .car_ratefeatures{ text-align: center; width: 100%; margin: 15px 0 0;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .strik{ width: auto; vertical-align: middle;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml{ display: inline-block; vertical-align: middle; margin: 0; font-size: 21px;}
+ .listing_rhthld .car_ratefeatures .info_fredetls{ vertical-align: middle;}
+}
+@media (max-width: 479px){
+ .listing_rhthld{ padding:15px 10px; margin: 0 0 10px; border: none; border-top: 1px solid #ddd; box-shadow: 2px 2px 3px #ddd;}
+ .listing_rhthld:last-child{ border-bottom: 1px solid #ddd;}
+ .fareslide .farebox h4.head{ border-top: 0;}
+ .listing_items_common{ min-height: 100px;}
+ .listing_items_common span{ margin: 0 0 5% 0;}
+
+ .carlist_bottomenquery h3{ padding: 10px 20px 15px; font-size: 17px; margin-bottom: 0;}
+ .carlist_bottomenquery .form-group{ width: 100%;}
+ .carlist_bottomenquery .form-group:nth-child(2n+1){}
+ .carlist_bottomenquery .form-group.comment textarea{ height: 80px }
+ .carlist_bottomenquery .form-group.call_toaction{ margin: 0; text-align: left;}
+
+
+
+ .listing_rhthld .car_detail{ width: 100%; margin: 0 0 10px;}
+ .listing_rhthld .car_detail .frst{ flex-direction: column-reverse;}
+ .listing_rhthld .car_detail .frst .strm_d span{ padding: 25px 3px 0; font-size: 12px;}
+ .listing_rhthld .car_detail .frst .strm_b{ display: inline-block; vertical-align: middle; margin: 0 0 10px; font-size: 16px; text-align: center; font-weight: 600;}
+ .listing_rhthld .car_detail .frst .strm_c{ text-align: center; margin: 0;}
+ .listing_rhthld .car_detail .frst .strm_c .img_box{ height: auto;}
+ .listing_rhthld .car_detail .frst .strm_c img{ width: 120px;}
+
+ .listing_rhthld .car_ratefeatures{ width: 100%; margin: 15px 0 0;}
+ .listing_rhthld .car_ratefeatures .details::after{ right: 80px;}
+ .listing_rhthld .car_ratefeatures .details::before{ right: 79px;}
+
+ .listing_rhthld .car_ratefeatures .car_rates{ padding: 0; text-align: center;}
+
+
+
+
+ .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group.caltact_hld{ margin: 10px 0 0;}
+ .modify_search{ padding: 4px 0 0 0;}
+
+ .hmc-list{ border: none; box-shadow: none; margin: 0;}
+ .hmc-list-heading-section{ padding: 10px; display: block;}
+ .hmc-list-heading-section .car_detail{ width: 70%; float: left;}
+ .hmc-list-heading-section .car_txtfeatured{ width: 70%;  float: left;}
+ .hmc-list-heading-section .car_ratefeatures{ width: 30%; margin: 20px 0 0;}
+ .hmc-list-heading-section .car_detail .loading_img_box{ width: 50%; height: 40px; margin: 0 0 5px;}
+ .hmc-list-heading-section .car_txtfeatured .loading_img_box{ width: 100%; height: 20px; margin: 0 0 5px;}
+ .hmc-list-heading-section .car_ratefeatures .loading_img_box{ height: 20px;}
+
+}
+@media (max-width: 410px){
+ .listing_txt.mob_parentsrchw{ width: 100%;}
+ .listing_txt .modify-serch_info .common{ width: 49%;}
+ .listing_txt .modify-serch_info .common .info_stream{ width: 62%;}
+}
+@media screen and (max-width: 767px){
+  body.ovrly:after{ background: rgba(0,0,0,.4);}
+  .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group .searh_box_main input[type="text"]{ border: none;}
+  .modify-srchpopup .sarch-bookingwdgt .form-group{ border: none;}
+  .modifyedit_mode{ background: #efeff0; margin-top: -51px;}
+  .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group label{ color: #222;}
+  .modify-srchpopup .modify_close i{ color: #222;}
+  .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group input[type="text"]{ background-position: 4px -133px;}
+  .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group.depart_hld input[type="text"]{ background-position: 3px -80px;}
+  .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .strik{ display: none;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .call_toact button[type="submit"]{ font-size: 15px; padding: 2px 15px 5px; margin-left: 5px;}
+ .carlist-aside{ margin: 0 0 0; padding: 0;}
+ .carlist-aside .car_benefits{ border: 0; border-top: 1px solid #ddd; margin: 0;}
+ .fareslide .farebox{ flex-direction: column; }
+ .fareslide .farebox .basefare_box ul li:last-child{ border: 0;}
+ .fareslide .farebox .basefare_box ul{ margin: 0 15px }
+ .fst_newcarlist-wrp{ padding: 10px 0 0;}
+ .fst_newcarlist-wrp .col-lg-9{ padding: 0 0; overflow: hidden;}
+ .fst_newcarlist-wrp .col-lg-9 .carlist_bottomenquery{ display: none;}
+ .mobileenq{ display: block;}
+ .carlist_bottomenquery{ margin: 0 0; border-left: 0; border-right: 0; border-bottom: 0;}
+ .map_box{ display: none;}
+ .modify-serch_info .locations{ max-width: 100%; width: 100%; margin: 0;}
+ .modify-serch_info .pickdrop-date{ width: 100%;}
+ .modify-serch_info .pickdrop-date{ padding-left: 20px;}
+
+ .listing_rhthld .car_txtfeatured{ width: 100%; padding: 0;}
+ .listing_rhthld .car_txtfeatured .qulity{ display: none;}
+ .listing_rhthld .car_txtfeatured span{ font-size: 13px; margin: 0px 2px; border: 1px solid #ccc; border-radius: 10px; padding: 0 5px 1px;}
+ .listing_rhthld .car_txtfeatured span img{ display:none;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer{ display: flex; flex-direction: row-reverse; align-items: center;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer + .trip_transfer{ display: none;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer span{ width: auto; margin: 0; font-size: 15px; color: #747474; font-weight: 600; background-position: right -92px;}
+ .listing_rhthld .car_ratefeatures .info_fredetls span.reverse{ background-position: right -117px;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml,
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml strong{ font-size: 20px; display: inline-block; flex: 1 0 0; background: #FF9000; color:#fff; line-height: 40px;}
+ .listing_rhthld .car_ratefeatures .car_rates .trip_transfer .nrml strong i{ display: inline-block; font-size: 22px; font-weight: 600; margin-left: 10px;}
+ .listing_rhthld .car_ratefeatures .info_fredetls{ flex: 1 0 0;}
+
+ .fareslide{ margin: 10px -10px 0; float: left; width: calc(100% + 20px);}
+ .fareslide .farebox ul li .lbl{ max-width: 80%;}
+ .fareslide .farebox .inex-box{ border-left: 0;}
+}
+
+@media (min-width: 568px) and (max-width: 767px){
+  .modify-srchpopup .sarch-bookingwdgt .form-group .interchange_icon{ top: 32px;  right: -20px;}
+  .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget .form-group.caltact_hld{ margin:10px 0 0;}
+  .modify-srchpopup .banner_imgwraper .banner_innerwrp .sec_search-widget{ height: 300px; overflow-y: auto;}
+  .modify-srchpopup .sarch-bookingwdgt .form-group.select_hld{ width: 100%;}
+  .modify-srchpopup .sarch-bookingwdgt .form-group.input_hld{ width: calc(50% - 5px);}
+  .modify-srchpopup .sarch-bookingwdgt .form-group.depart_hld ~ .form-group.depart_hld{ margin-right:0;}
+  .listing_rhthld .car_ratefeatures .info_fredetls{ flex: 2 0 0;}
+}

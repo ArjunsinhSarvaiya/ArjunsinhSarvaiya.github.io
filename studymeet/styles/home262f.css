@@ -1,0 +1,108 @@
+#homeslider .carousel-caption{ bottom: 53%; left: 3%; right: 3%;}
+#homeslider .carousel-caption h2{ color: #ffffff; font-size: 48px; line-height: 50px; font-weight: 400; margin-bottom: 20px;}
+#homeslider .carousel-caption span{ color: #ffffff; display: inline-block; font-size: 38px; font-weight: 300; line-height: 40px;}
+#homeslider .item:after{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, .2); content: '';}
+.home_iconcontainer{ width: 100%; float: left; padding: 20px 0;}
+.home_icon{ width: 100%; display: inline-block;}
+.home_icon strong{ color: #333; display: inline-block; font-size: 38px; line-height: 60px; font-weight: 500; text-align: center; width: 100%}
+.home_icon strong small{ font-size: 100%;}
+.home_icon .caption{ color: #616161; display: inline-block; font-size: 17px; font-weight: 400; text-align: center; width: 100%;}
+.home_secndheading h2{ font-size: 30px; line-height: 40px; font-weight: 400; color: #333; text-align: center; margin: 20px 0 30px; position: relative;}
+.home_secndheading h2:after{ position: absolute; left: 50%; width: 100px; height: 3px; background: #ff9000; content: ''; margin: 0 0 0 -50px; bottom: -10px;}
+.home_iconcontainer .home_secndheading h2{ margin: 0 0 35px;}
+.home_secndheading .taxi_home_thumb{ color: #333; font-size: 30px; font-weight: 400; margin: 0 0 32px; text-align: center;}
+.homepopular_destimg{ width: 100%; display: inline-block;}
+.homepopular_destimg a{ width: 100%; display: inline-block; position: relative; overflow: hidden;}
+.homepopular_destimg a:hover{ box-shadow: 0 10px 20px 0px #d4cece;}
+.homepopular_destimg a:hover img{ transform: scale(1.1);}
+.homepopular_destimg a img{ display: inline-block; height: auto; transition: 1s; max-width: 100%; min-width: 100%; min-height: 235px;}
+.homepopular_destimg.bigimg a img{ min-height: 540px;}
+.homepopular_destimg a > span{ color: #222; display: inline-block; font-size: 20px; font-weight: 600; position: relative; line-height: 20px; padding: 10px; text-align: right; width: 100%; border-bottom: 1px solid #ccc; border-radius: 0 0 3px 3px; transition: .5s; vertical-align: top;}
+.homepopular_destimg a > span strong{ float: left; font-size: 16px; font-weight: 500; max-width: calc(100% - 90px); overflow: hidden; padding: 0 0; line-height: 20px; text-overflow: ellipsis; white-space: nowrap;}
+.home_icon{ width: 100%; display: inline-block;}
+.home_icon .img{ text-align: center; width: 79px; display:block; margin: 0 auto 10px; height: 79px; background: url(../images/home/growth_sprite.png) no-repeat 0 0;}
+.home_icon .img.service{ background-position: -194px 0;}
+.home_icon .img.trip{ background-position: 0 0;}
+.home_icon .img.happy{ background-position: -291px 0px;}
+.home_icon .img.km{ background-position: -97px 0px;}
+.home_icon .img img{ width: auto; display: inline-block;}
+.home_icon .caption{ color: #616161; display: inline-block; font-size: 16px; font-weight: 400; text-align: center; width: 100%;}
+.homepopular_destimg{ width: 100%; display: inline-block;}
+.homepopular_destimg a{ width: 100%; display: inline-block; position: relative;}
+.homepopular_destimg a img{ display: inline-block; height: auto; max-width: 100%;}
+.homepopular_destimg a .black{ background-color: #f5f5f5;}
+.homepopular_dest{ width: 100%; float: left; padding: 20px 0 0}
+.homepopular_dest.charbanner a{ overflow: visible;}
+.homepopular_dest.charbanner a:after{ position: absolute; left: 0; top: 0; width: 100%; transform: scale(0); background: rgba(255,255,255,.2); content: ''; height: calc(100% - 42px); transition: .5s;}
+.homepopular_dest.charbanner a:hover:after{ transform: scale(1);}
+.homepopular_dest.charbanner a span{ background: #f5f5f5; bottom: 0; color: #222; display: inline-block; font-size: 22px; font-weight: 600; left: 0; position: static; line-height: 20px; padding: 10px 10px; text-align: right; transition: all 0.5s ease 0s; width: 100%; border-bottom: 1px solid #ccc; border-radius: 0 0 3px 3px;}
+.homepopular_dest.charbanner .homepopular_destimg{ position: relative; margin: 0 0 30px}
+.homepopular_dest.charbanner span p{ display: none;}
+.homepopular_dest.charbanner:hover img{ transform: scale(1);}
+.homepopular_dest.charbanner .homepopular_destimg span strong{ float: left; font-size: 18px; font-weight: 500; line-height: 20px; max-width: calc(100% - 90px); overflow: hidden; padding: 0; text-overflow: ellipsis; white-space: nowrap;}
+.homepopular_dest.charbanner:hover small{ margin: 5px 0 0;}
+@media (min-width: 992px) and (max-width: 1100px){ #homeslider .carousel-caption{ padding: 0; bottom: 60%;}
+ #homeslider .carousel-caption h2{ font-size: 38px; line-height: 45px; margin-bottom: 10px;}
+ #homeslider .carousel-caption span{ font-size: 28px; line-height: 32px;}
+}
+@media (min-width: 768px) and (max-width: 991px){ #homeslider .carousel-caption{ bottom: 35%;}
+ #homeslider .carousel-caption h2{ font-size: 30px; margin-bottom: 10px; line-height: 35px;}
+ #homeslider .carousel-caption span{ font-size: 25px; line-height: 30px;}
+ .banner_imgwraper .banner_innerwrp .sec_search-widget{ padding: 12px 0 0!important;}
+ .home_secndheading h2{ font-size: 25px; line-height: 30px; margin: 0 0 25px;}
+ .homepopular_destimg a img{ min-height: 155px;}
+ .homepopular_destimg.bigimg a img{ min-height: 380px;}
+ .homepopular_destimg a span{ font-size: 15px; padding: 5px 10px;}
+ .home_icon strong{ font-size: 30px;}
+ .home_icon .caption{ font-size: 15px;}
+}
+@media (max-width: 991px){ .homepopular_destimg a span{ font-size: 13px;}
+}
+@media (max-width: 480px){
+  .smlmob_thumbnail{ width: 100%;}
+}
+@media (max-width: 568px){ .homepopular_destimg a span{ font-size: 14px;}
+ .homepopular_destimg a span strong{ font-size: 14px;}
+ .mob_thumbnail{ width: 100%;}
+ .homepopular_destimg a img{ width: 100%;}
+ .homepopular_destimg{ margin: 0 0 10px;}
+ .homepopular_dest.charbanner .homepopular_destimg{ margin: 0 0 15px;}
+ .homepopular_destimg a span{ font-size: 15px; padding: 5px 10px 5px 20px;}
+ .homepopular_dest.charbanner a span{ font-size: 20px; padding: 5px 15px;}
+ .homepopular_dest.charbanner .homepopular_destimg span{ vertical-align: top;}
+ .homepopular_dest.charbanner .homepopular_destimg:hover span{ display: inline-block; height: 35px;}
+ .homepopular_dest.charbanner .homepopular_destimg:hover p{ display: none;}
+ .homepopular_dest.charbanner .homepopular_destimg span strong{ font-size: 13px;}
+}
+@media (min-width: 567px) and (max-width: 767px){ .homepopular_dest.charbanner .mob_thumbnail .col-md-4{ float: left; width: 33.33%;}
+ .homepopular_dest.charbanner .mob_thumbnail .col-md-8{ float: left; width: 66.66%;}
+ .homepopular_destimg.bigimg a img{ min-height: 330px; max-height: 330px;}
+}
+@media (max-width: 767px){ .homepopular_destimg a img{ min-height: 130px;}
+ .home_secndheading h2{ font-size: 17px; line-height: 25px; margin: 10px 0 25px;}
+ .home_overmob{ margin: 0 0 2%;}
+ .home_icon{ margin: 0 0 10px;}
+ .home_icon strong{ font-size: 20px; line-height: 20px;}
+ .home_icon .caption{ font-size: 14px;}
+ .homepopular_dest{ padding: 0;}
+ .home_iconcontainer{ padding: 10px 0 0px;}
+ .home_icon{ margin: 0 0 10px;}
+
+ #homeslider .item:after{ display: none;}
+ #homeslider .carousel-caption span{ display: none;}
+ #homeslider .carousel-caption h2{ font-size: 16px; margin: 0; line-height: 20px; color: #222;}
+ #homeslider .carousel-indicators{ bottom: auto; top: 120px; margin-bottom: 0;}
+ #homeslider .carousel-indicators li, #homeslider .carousel-indicators li.active{ width: 9px; height: 9px;}
+ #homeslider .carousel-caption{ padding: 15px 0; text-shadow: none; position: static; bottom: 0; top: 0; display: flex; align-items: center; justify-content: center; }
+}
+#Review_slider .usr_name{
+    margin: 0px 0 10px;
+}
+#Review_slider p{
+      min-height: 77px;
+}
+#Review_slider p a{
+line-height: 20px;
+display: block;
+    margin-top: 6px;
+}

@@ -1,0 +1,168 @@
+.blog_container{ background: #f5f5f5;}
+.blog_banner{ position: relative;}
+.blog_category.static{ position: static;}
+.blog_category.static li:first-child{ border-left: 1px solid #fff;}
+.blog_category.static li{ font-size: 15px; margin: 0; border-right: 1px solid #fff; flex: 1 0 0;}
+.blog_category.static li a{ padding: 0 2px; display: block;}
+.blog_category.static li a:hover{ color: #fff; text-decoration: none; background: #1a242d;}
+.blog_category{ position: absolute; bottom: 0; left: 0; width: 100%; background: rgba(0, 0, 0, .75); text-align: center; padding: 0;}
+.blog_category li{ display: inline-block; font-size: 17px; line-height: 40px; margin: 0 15px;}
+.blog_category li a{ display: inline-block; color: #fff; text-transform: capitalize;}
+.blog_category li.active a, .blog_category li a:hover{ color: #ff8100; text-decoration: none;}
+.blog_category .toggleblog{ background: #f1f1f1; display: none; padding: 10px 10px; color: #333; text-align: left; font-size: 17px; line-height: 20px; text-decoration: none;}
+.blog_category .toggleblog i{ float: right; font-size: 21px;}
+.blog-title{ text-align: center; font-size: 35px; line-height: 40px; margin: 30px 0; text-transform: capitalize;}
+.blog_listing .blog_detail .whitebox{ background: #fff; margin-bottom: 30px; padding-bottom: 20px; box-shadow: 0 2px 2px #d8d5d5;}
+.blog_listing .blog_detail .content_info{ max-height: 88px; overflow: hidden; padding: 0 3%; font-size: 15px; line-height: 22px; color: #666;}
+.blog_listing .blog_detail figure img{ width: 100%; min-height: 235px; max-height: 235px;}
+.blog_listing .blog_detail .content_info p~p img{ margin-top: 10px; display: none;}
+.blog_listing .blog_detail .detailbar{ margin: 20px 0 10px; display: inline-block; width: 100%; padding: 0 3%;}
+.blog_listing .blog_detail .detailbar .userinfo{ width: 70%; float: left; text-align: left;}
+.blog_listing .blog_detail .detailbar .userinfo img{ float: left; margin-right: 10px; width: 48px !important; height: 48px; border-radius: 50%;}
+.blog_listing .blog_detail .detailbar .userinfo h4{ font-size: 15px; margin: 0; color: #000; line-height: 22px;}
+.blog_listing .blog_detail .detailbar .userinfo p{ font-size: 13px; color: #908f8f; font-weight: 400; width: auto; text-overflow: ellipsis; overflow: hidden; max-width: 70%; white-space: nowrap;}
+.blog_listing .blog_detail .detailbar .cattype{ font-size: 15px; line-height: 20px; margin: 15px 0 0; align-items: center; float: right; text-transform: capitalize; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 30%;}
+.blog_listing .blog_detail h3{ font-size: 18px; line-height: 25px; color: #000; font-weight: 400; margin: 0 0 10px; display: inline-block; width: 100%; padding: 0 3%; text-align: left;}
+.blog_listing .blog_detail h3 .editblog{ float: right; color: #fff; font-size: 14px; line-height: 20px; width: 65px; text-align: center; border-radius: 2px;}
+.blog_listing .blog_detail h3 a.titlename{ color: #000; white-space: nowrap; max-width: calc(100% - 70px); overflow: hidden; text-overflow: ellipsis; display: inline-block;}
+.blog_listing .blog_detail h3 a:hover, .blog_listing .blog_detail h3 a:focus{ text-decoration: none}
+.blogsidebar{ position: sticky; top: 90px; margin-bottom: 30px;}
+.blogsidebar .whitebox{ background: #fff; box-shadow: 0 2px 2px #d8d5d5; padding: 15px;}
+.blogsidebar h4{ font-size: 20px; line-height: 25px; margin: 0 0 15px; font-weight: 600;}
+.blogsidebar .popular_list{ list-style: disc; margin: 0 0 40px 20px;}
+.blogsidebar .popular_list li{ margin: 0 0 7px;}
+.blogsidebar .popular_list li a{ font-size: 14px; line-height: 20px; color: #666;}
+.blog_listing .blog_detail .City_Tours+.detailbar .cattype,.blog_listing .blog_detail .city_tours+.detailbar .cattype{ color: #ff9800; text-transform: capitalize;}
+.blog_listing .blog_detail .Culinary_Tours+.detailbar .cattype,.blog_listing .blog_detail .culinary_tours+.detailbar .cattype{ color: #e91e63; text-transform: capitalize;}
+.blog_listing .blog_detail .Sacred_Tours+.detailbar .cattype,.blog_listing .blog_detail .sacred_tours+.detailbar .cattype{ color: #2196f3; text-transform: capitalize;}
+.blog_listing .blog_detail .Travel_Tips+.detailbar .cattype,.blog_listing .blog_detail .travel_tips+.detailbar .cattype{ color: #03ab13; text-transform: capitalize;}
+.blog_listing .blog_detail .Weekend_Getaways+.detailbar .cattype,.blog_listing .blog_detail .weekend_getaways+.detailbar .cattype{ color: #E20B17; text-transform: capitalize;}
+.blog_listing .blog_detail .Travel_Gifts+.detailbar .cattype,.blog_listing .blog_detail .travel_gifts+.detailbar .cattype{ color: purple; text-transform: capitalize;}
+.blog_listing .blog_detail .City_Tours p:first-of-type img,.blog_listing .blog_detail .city_tours p:first-of-type img,.blog_listing .blog_detail figure.city_tours img{ border-bottom: 5px solid #ff9800;}
+.blog_listing .blog_detail .Culinary_Tours p:first-of-type img,.blog_listing .blog_detail .culinary_tours p:first-of-type img,.blog_listing .blog_detail figure.culinary_tours img{ border-bottom: 5px solid #e91e63;}
+.blog_listing .blog_detail .Sacred_Tours p:first-of-type img,.blog_listing .blog_detail .sacred_tours p:first-of-type img,.blog_listing .blog_detail figure.sacred_tours img{ border-bottom: 5px solid #2196f3;}
+.blog_listing .blog_detail .Travel_Tips p:first-of-type img,.blog_listing .blog_detail .travel_tips p:first-of-type img,.blog_listing .blog_detail figure.travel_tips img{ border-bottom: 5px solid #03ab13;}
+.blog_listing .blog_detail .Weekend_Getaways p:first-of-type img,.blog_listing .blog_detail .weekend_getaways p:first-of-type img,.blog_listing .blog_detail figure.weekend_getaways img{ border-bottom: 5px solid #E20B17;}
+.blog_listing .blog_detail .Travel_Gifts p:first-of-type img,.blog_listing .blog_detail .travel_gifts p:first-of-type img,.blog_listing .blog_detail figure.travel_gifts img{ border-bottom: 5px solid purple;}
+.blog_listing .blog_detail h3 .City_Tours, .blog_listing .blog_detail h3 .city_tours{ color: #ff9800;}
+.blog_listing .blog_detail h3 .Culinary_Tours, .blog_listing .blog_detail h3 .culinary_tours{ color: #e91e63;}
+.blog_listing .blog_detail h3 .Sacred_Tours, .blog_listing .blog_detail h3 .sacred_tours{ color: #2196f3;}
+.blog_listing .blog_detail h3 .Travel_Tips, .blog_listing .blog_detail h3 .travel_tips{ color: #03ab13;}
+.blog_listing .blog_detail h3 .Weekend_Getaways, .blog_listing .blog_detail h3 .weekend_getaways{ color: #E20B17;}
+.blog_listing .blog_detail h3 .Travel_Gifts, .blog_listing .blog_detail h3 .travel_gifts{ color: purple;}
+.subscription_container{ background: #fff url(../images/blog/subs_car.jpg) no-repeat left center; background-size: 55%; display: inline-block; vertical-align: top; width: 100%; margin: 10px 0 40px; padding: 50px 0;}
+.subscription_container.bordered{ border: 2px solid #838383;}
+.subs_form{ width: 45%; float: right; padding: 50px 6%; position: relative;}
+.subs_form h4{ font-weight: 300; font-size: 50px; line-height: 60px; text-transform: uppercase; margin: 0 0 30px}
+.subs_form h4 span{ display: block; font-size: 26px; line-height: 40px;}
+.subs_form input[type="submit"]~span{ position: absolute; bottom: 25px; left: 13%; color: red; font-size: 11px; font-weight: 500}
+.subs_form input[type="text"], .subs_form input[type="email"]{ width: 100%; font-size: 16px; color: #5b5b5b; background: #f5f5f5; border: 1px solid #bababa; height: 36px; padding: 3px 10px; margin: 0 0 15px; font-weight: 300;}
+.subs_form input[type="submit"]{ background: #ff7200; border: 0; color: #fff; width: 100%; font-size: 18px; line-height: 26px; padding: 5px 10px;}
+.subs_form .thanks{ background: green; margin: 10px 0 0; display: block; font-size: 14px; color: #fff; position: static; padding: 5px 10px;}
+.fb_iframe_widget span,.fb_iframe_widget span iframe{ width: 100%;}
+/*=========== Blog detail css start here =============*/
+.blogdetail_container p{ font-size: 16px; color: #555; font-weight: 400; line-height: 22px;}
+.blogdetail_container .description{ padding: 350px 2% 0; position: relative; margin: 10px 0 0;}
+.blogdetail_container .description>p:first-of-type img{ position: absolute; height: 400px!important; left: 0; top: 0; width: 100%; min-width: 100%;}
+.blogdetail_container .description .label-size a{ color: #fff; font-size: 13px; line-height: 20px; font-weight: 600; text-transform: capitalize; margin: 0 5px 5px 0; display: inline-block; background: #337ab7; padding: 0 8px 1px; border-radius: 10px; transition: .3s;}
+.blogdetail_container .description .label-size a:hover{ background: #145892; text-decoration: none;}
+.blogdetail_container .description h4{ font-size: 38px; color: #303030; line-height: 48px; text-align: center; margin: 30px 0;}
+.blogdetail_container .description .leftimg{ float: left; max-width: 100%; margin: 0 40px 0 0;}
+.blogdetail_container .description .rightimg{ float: right; max-width: 100%; margin: 0 0 0 40px;}
+.blogdetail_container .description ul{ margin: 20px 0;}
+.blogdetail_container .description ul li{ display: inline-block; color: #555; font-size: 16px; line-height: 22px;}
+.blogdetail_container .description ul li i{ margin-right: 5px;}
+.blogdetail_container .description ul li a{ color: #153146;}
+.blogdetail_container .description textarea{ border: 1px solid #d4d4d4; padding: 10px; line-height: 40px; height: 60px; font-size: 20px; background: #fafafa; color: #ababab; width: 100%; overflow-y: hidden}
+.blogdetail_container .description h1{ font-size: 30px; font-weight: 400;}
+.blogdetail_container .description h2{ font-size: 25px; font-weight: 400; color: #ff9000; margin: 0;}
+.blogdetail_container .description h3{ font-size: 21px; font-weight: 600; margin: 10px 0 5px;}
+.blogdetail_container .description h2 strong, .blogdetail_container .description h3 strong{ font-weight: 400;}
+.blogdetail_banner{ margin: 45px 0 0; position: relative; z-index: 9;}
+.blogdetail_banner p{ float: left; margin: 0; font-size: 25px; color: #303030; line-height: 30px; font-weight: 400;}
+.blogdetail_banner p span{ color: #ff9000;}
+.blogdetail_banner .userinfo{ padding: 10px 2%; display: inline-block; width: 100%;}
+.blogdetail_banner .userinfo img{ width: 80px !important; border: 2px solid #fff; border-radius: 50%; margin: -40px 10px 0 0; position: relative!important; height: 80px;}
+.blogdetail_banner .userinfo>span{ float: right; font-size: 22px; color: #303030; line-height: 30px; font-weight: 400;}
+/*=========== Responsive css start here =============*/
+@media screen and (max-width: 1199px) and (min-width: 768px){ .blog_category.static ul{ display: block!important;}
+}
+@media screen and (max-width: 1100px) and (min-width: 992px){ .blog_category.static li{ font-size: 15px;}
+ .blog_category.static li a{ padding: 0 24px;}
+}
+@media (min-width: 768px) and (max-width: 991px){ .blog_category li{ margin: 2px 7px; font-size: 15px; line-height: 30px;}
+ .blog_category.static li a{ padding: 0 8px; font-size: 14px;}
+ .blog-title{ font-size: 30px; line-height: 35px; margin: 30px 0;}
+ .blog_listing{ padding: 0 15px;}
+ .blog_listing .blog_detail h3{}
+ .blog_listing .blog_detail p{ font-size: 15px;}
+ .blog_listing .blog_detail .detailbar{ margin: 20px 0 0;}
+ .blog_listing .row{ margin-bottom: 0;}
+ .blogsidebar{ margin-bottom: 0;}
+ .subscription_container{ margin: 20px 0 40px;}
+ .subs_form h4{ font-size: 35px; line-height: 45px;}
+ .subs_form h4 span{ font-size: 18px; line-height: 25px}
+ .subs_form h4{ margin: 0 0 20px;}
+ .subs_form{ padding: 30px 5%;}
+ .subs_form input[type="submit"] ~ span{ left: 11%; bottom: 8px;}
+ .blog_listing .blog_detail p:first-of-type img{ min-height: 215px; border-width: 7px !important;}
+ .blogdetail_banner p, .blogdetail_banner .userinfo > span{ font-size: 20px; line-height: 25px;}
+ .blogdetail_banner{}
+ .blogdetail_container .description h4{ font-size: 30px; line-height: 40px; margin: 15px 0;}
+ .blogdetail_container .description h1{ font-size: 25px;}
+ .blogdetail_container .description h2{ font-size: 20px;}
+ .blogdetail_container p{ font-size: 15px; line-height: 25px;}
+ .blogdetail_container .description .leftimg, .blogdetail_container .description .rightimg{ max-width: 50%;}
+ .blogdetail_container .description ul li{ font-size: 16px; line-height: 20px;}
+}
+@media (min-width: 768px){ .blog_category.static ul{ display: flex;}
+}
+@media (max-width: 767px){ .blog_category{ position: static; padding: 0;}
+ .blog_category .toggleblog{ display: block}
+ .blog_category ul{ display: none;}
+ .blog_category .container{ padding: 0;}
+ .blog_category li{ font-size: 14px; line-height: 25px; margin: 0 0; display: block; border-bottom: 1px solid #747474;}
+ .blog_category li a{ display: block; text-align: left; padding: 5px 10px;}
+ .blog_category li a:hover{ background: #ff8100; color: #fff;}
+ .blog_category.static{ margin: 1px 0 0;}
+ .blog_category.static li:first-child{ border-left: none;}
+ .blog_category.static li{ border-right: none; border-bottom: 1px solid #747474; font-size: 14px;}
+ .blog_category.static li a{ padding: 3px 10px;}
+ .blogdetail_container .description h1{ font-size: 18px; line-height: 22px; margin: 0 0 10px;}
+ .blogdetail_container .description h2{ font-size: 17px;}
+ .blogdetail_container .description > p:first-of-type img{ height: 150px!important;}
+ .blog-title{ font-size: 20px; line-height: 30px; margin: 15px 0;}
+ .blog_listing .blogimg::after{ right: 0; width: 100%; height: 5px; bottom: -5px; top: auto}
+ .blog_listing .blog_detail h3{ font-size: 16px; line-height: 20px;}
+ .blog_listing .blog_detail p{ font-size: 13px; line-height: 18px;}
+ .blog_listing .blog_detail .detailbar{ margin: 15px 0 0;}
+ .blog_listing .blog_detail .detailbar .userinfo h4{ font-size: 15px; line-height: 20px;}
+ .blog_listing .blog_detail .detailbar .userinfo p{ font-size: 14px;}
+ .blog_listing .row{ margin-bottom: 0px;}
+ .subscription_container{ margin: 0 0 20px; background-size: 300px; padding-top: 150px; padding-bottom: 10px; background-position: left top;}
+ .subs_form{ width: 100%; padding: 20px;}
+ .subs_form input[type="submit"] ~ span{ left: 6%; bottom: 0;}
+ .subs_form h4{ font-size: 22px; line-height: 30px; margin: 0 0 15px;}
+ .subs_form h4 span{ font-size: 15px; line-height: 20px;}
+ .subs_form input[type="text"], .subs_form input[type="email"]{ font-size: 15px;}
+ .blog_listing .blog_detail .content_info{ font-size: 13px; line-height: 18px; max-height: 72px;}
+ .blog_listing .blog_detail .whitebox{ margin-bottom: 15px;}
+ .blogdetail_banner{ margin: 0;}
+ .blogdetail_banner h1{ font-size: 25px;}
+ .blogdetail_banner p{ font-size: 15px; line-height: 20px;}
+ .blogdetail_banner .userinfo img{ width: 50px !important; margin: -5px 5px 0 0;}
+ .blogdetail_banner .userinfo > span{ font-size: 14px; line-height: 20px; margin: 12px 0 0;}
+ .blogdetail_container .description h4{ font-size: 20px; line-height: 25px; margin: 0 0 10px;}
+ .blogdetail_container .description{ padding: 150px 0 0;}
+ .blogdetail_banner .userinfo{ padding: 10px 0;}
+ .blogdetail_container p{ font-size: 14px; line-height: 20px;}
+ .blogdetail_container .description ul{ margin: 15px 0;}
+ .blogdetail_container .description p img{ height: 50px!important;}
+ .blogdetail_container .description ul li{ font-size: 14px; line-height: 20px; margin-right: 10px;}
+ .blogdetail_container .description textarea{ font-size: 15px; line-height: 30px; padding: 5px 10px; height: 40px; margin: 0 0 30px;}
+ .subscription_container.bordered{ margin: 0 15px 20px; width: calc(100% - 30px); border: 1px solid #838383;}
+ .blog_listing .blog_detail figure img{ min-height: 1px; max-height: 100%;}
+}
+@media (max-width: 767px) and (min-width: 568px){ .blog_listing .blog_detail{ float: left; width: 50%;}
+ .blog_listing .blog_detail figure img{ min-height: 200px; max-height: 200px;}
+}
